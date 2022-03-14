@@ -1,0 +1,5 @@
+- hosts: "masters, workers"
+  become: yes
+  tasks:
+    - name: Unhold k8s packages
+      shell: sudo apt-mark unhold kubelet kubeadm kubectl
