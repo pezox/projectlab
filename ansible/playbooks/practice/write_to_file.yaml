@@ -1,0 +1,7 @@
+- hosts: alpha
+  tasks:
+  - name: writing to file
+    copy:
+      dest: "/home/cloud/test.txt"
+      content: |
+        cloud-42122.vm.smallville.cloud.bme.hu

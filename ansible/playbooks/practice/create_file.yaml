@@ -1,0 +1,7 @@
+- hosts: alpha
+  tasks:
+  - name: create empty file
+    file:
+      path: "/home/test.txt"
+      state: touch
+    become: yes

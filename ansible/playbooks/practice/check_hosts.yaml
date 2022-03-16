@@ -1,0 +1,6 @@
+- hosts: client
+  tasks:
+    - name: Check for HTTP 200 for nginx's hosts
+      uri:
+        url: "http://10.9.2.87/hosts"
+        status_code: 200
