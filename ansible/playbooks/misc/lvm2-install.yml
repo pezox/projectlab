@@ -1,0 +1,8 @@
+- hosts: 'masters, workers'
+  become: yes
+
+  tasks:
+    - name: Install lvm2
+      apt:
+        name: lvm2
+        state: present
