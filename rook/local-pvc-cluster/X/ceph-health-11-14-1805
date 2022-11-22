@@ -1,0 +1,21 @@
+  cluster:
+    id:     fac3282d-12cb-465f-ac28-cfdbfce868b9
+    health: HEALTH_WARN
+            1 MDSs report slow metadata IOs
+            Reduced data availability: 64 pgs inactive
+            OSD count 0 < osd_pool_default_size 3
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 18m)
+    mgr: a(active, since 15m)
+    mds: 1/1 daemons up, 1 standby
+    osd: 0 osds: 0 up, 0 in
+ 
+  data:
+    volumes: 1/1 healthy
+    pools:   2 pools, 64 pgs
+    objects: 0 objects, 0 B
+    usage:   0 B used, 0 B / 0 B avail
+    pgs:     100.000% pgs unknown
+             64 unknown
+ 

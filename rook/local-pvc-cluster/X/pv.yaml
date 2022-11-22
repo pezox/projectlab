@@ -1,0 +1,144 @@
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: cloud-43049-mon
+spec:
+  storageClassName: local-storage
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  # PV for mon must be a filesystem volume.
+  volumeMode: Filesystem
+  local:
+    # If you want to use dm devices like logical volume, please replace `/dev/sdb` with their device names like `/dev/vg-name/lv-name`.
+    path: /dev/loop0
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+        - matchExpressions:
+            - key: kubernetes.io/hostname
+              operator: In
+              values:
+                - cloud-43049
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: cloud-43049-osd
+spec:
+  storageClassName: local-storage
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  # PV for OSD must be a block volume.
+  volumeMode: Block
+  local:
+    path: /dev/sda
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+        - matchExpressions:
+            - key: kubernetes.io/hostname
+              operator: In
+              values:
+                - cloud-43049
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: cloud-43050-mon
+spec:
+  storageClassName: local-storage
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  volumeMode: Filesystem
+  local:
+    path: /dev/loop0
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+        - matchExpressions:
+            - key: kubernetes.io/hostname
+              operator: In
+              values:
+                - cloud-43050
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: cloud-43050-osd
+spec:
+  storageClassName: local-storage
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  volumeMode: Block
+  local:
+    path: /dev/sda
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+        - matchExpressions:
+            - key: kubernetes.io/hostname
+              operator: In
+              values:
+                - cloud-43050
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: cloud-43813-mon
+spec:
+  storageClassName: local-storage
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  # PV for mon must be a filesystem volume.
+  volumeMode: Filesystem
+  local:
+    # If you want to use dm devices like logical volume, please replace `/dev/sdb` with their device names like `/dev/vg-name/lv-name`.
+    path: /dev/loop0
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+        - matchExpressions:
+            - key: kubernetes.io/hostname
+              operator: In
+              values:
+                - cloud-43813
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+ name: cloud-43813-osd
+spec:
+  storageClassName: local-storage
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  # PV for OSD must be a block volume.
+  volumeMode: Block
+  local:
+    path: /dev/sda
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+        - matchExpressions:
+            - key: kubernetes.io/hostname
+              operator: In
+              values:
+                - cloud-43813
+

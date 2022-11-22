@@ -1,0 +1,628 @@
+LAST SEEN   TYPE      REASON                   OBJECT                                                            MESSAGE
+2m42s       Normal    Scheduled                pod/ceph-file-controller-detect-version-qcmdp                     Successfully assigned rook-ceph/ceph-file-controller-detect-version-qcmdp to cloud-43049
+2m40s       Normal    Pulled                   pod/ceph-file-controller-detect-version-qcmdp                     Container image "rook/ceph:v1.8.8" already present on machine
+2m40s       Normal    Created                  pod/ceph-file-controller-detect-version-qcmdp                     Created container init-copy-binaries
+2m40s       Normal    Started                  pod/ceph-file-controller-detect-version-qcmdp                     Started container init-copy-binaries
+2m39s       Normal    Pulled                   pod/ceph-file-controller-detect-version-qcmdp                     Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+2m38s       Normal    Created                  pod/ceph-file-controller-detect-version-qcmdp                     Created container cmd-reporter
+2m38s       Normal    Started                  pod/ceph-file-controller-detect-version-qcmdp                     Started container cmd-reporter
+2m42s       Normal    SuccessfulCreate         job/ceph-file-controller-detect-version                           Created pod: ceph-file-controller-detect-version-qcmdp
+2m38s       Normal    Completed                job/ceph-file-controller-detect-version                           Job completed
+22m         Normal    Scheduled                pod/csi-cephfsplugin-8tftx                                        Successfully assigned rook-ceph/csi-cephfsplugin-8tftx to cloud-43049
+22m         Normal    Pulling                  pod/csi-cephfsplugin-8tftx                                        Pulling image "k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.5.0"
+22m         Normal    Pulled                   pod/csi-cephfsplugin-8tftx                                        Successfully pulled image "k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.5.0" in 35.966733805s
+22m         Normal    Created                  pod/csi-cephfsplugin-8tftx                                        Created container driver-registrar
+22m         Normal    Started                  pod/csi-cephfsplugin-8tftx                                        Started container driver-registrar
+22m         Normal    Pulled                   pod/csi-cephfsplugin-8tftx                                        Container image "quay.io/cephcsi/cephcsi:v3.5.1" already present on machine
+22m         Normal    Created                  pod/csi-cephfsplugin-8tftx                                        Created container csi-cephfsplugin
+22m         Normal    Started                  pod/csi-cephfsplugin-8tftx                                        Started container csi-cephfsplugin
+22m         Normal    Pulled                   pod/csi-cephfsplugin-8tftx                                        Container image "quay.io/cephcsi/cephcsi:v3.5.1" already present on machine
+22m         Normal    Created                  pod/csi-cephfsplugin-8tftx                                        Created container liveness-prometheus
+22m         Normal    Started                  pod/csi-cephfsplugin-8tftx                                        Started container liveness-prometheus
+22m         Normal    Scheduled                pod/csi-cephfsplugin-cjxkh                                        Successfully assigned rook-ceph/csi-cephfsplugin-cjxkh to cloud-43050
+22m         Normal    Pulling                  pod/csi-cephfsplugin-cjxkh                                        Pulling image "k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.5.0"
+22m         Normal    Pulled                   pod/csi-cephfsplugin-cjxkh                                        Successfully pulled image "k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.5.0" in 2.895542701s
+22m         Normal    Created                  pod/csi-cephfsplugin-cjxkh                                        Created container driver-registrar
+22m         Normal    Started                  pod/csi-cephfsplugin-cjxkh                                        Started container driver-registrar
+22m         Normal    Pulling                  pod/csi-cephfsplugin-cjxkh                                        Pulling image "quay.io/cephcsi/cephcsi:v3.5.1"
+22m         Normal    Pulled                   pod/csi-cephfsplugin-cjxkh                                        Successfully pulled image "quay.io/cephcsi/cephcsi:v3.5.1" in 41.841641104s
+21m         Normal    Created                  pod/csi-cephfsplugin-cjxkh                                        Created container csi-cephfsplugin
+21m         Normal    Started                  pod/csi-cephfsplugin-cjxkh                                        Started container csi-cephfsplugin
+21m         Normal    Pulled                   pod/csi-cephfsplugin-cjxkh                                        Container image "quay.io/cephcsi/cephcsi:v3.5.1" already present on machine
+21m         Normal    Created                  pod/csi-cephfsplugin-cjxkh                                        Created container liveness-prometheus
+21m         Normal    Started                  pod/csi-cephfsplugin-cjxkh                                        Started container liveness-prometheus
+22m         Normal    Scheduled                pod/csi-cephfsplugin-mg6kx                                        Successfully assigned rook-ceph/csi-cephfsplugin-mg6kx to cloud-43813
+22m         Normal    Pulling                  pod/csi-cephfsplugin-mg6kx                                        Pulling image "k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.5.0"
+22m         Normal    Pulled                   pod/csi-cephfsplugin-mg6kx                                        Successfully pulled image "k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.5.0" in 3.368743637s
+22m         Normal    Created                  pod/csi-cephfsplugin-mg6kx                                        Created container driver-registrar
+22m         Normal    Started                  pod/csi-cephfsplugin-mg6kx                                        Started container driver-registrar
+22m         Normal    Pulling                  pod/csi-cephfsplugin-mg6kx                                        Pulling image "quay.io/cephcsi/cephcsi:v3.5.1"
+22m         Normal    Pulled                   pod/csi-cephfsplugin-mg6kx                                        Successfully pulled image "quay.io/cephcsi/cephcsi:v3.5.1" in 38.66367794s
+22m         Normal    Created                  pod/csi-cephfsplugin-mg6kx                                        Created container csi-cephfsplugin
+21m         Normal    Started                  pod/csi-cephfsplugin-mg6kx                                        Started container csi-cephfsplugin
+21m         Normal    Pulled                   pod/csi-cephfsplugin-mg6kx                                        Container image "quay.io/cephcsi/cephcsi:v3.5.1" already present on machine
+21m         Normal    Created                  pod/csi-cephfsplugin-mg6kx                                        Created container liveness-prometheus
+21m         Normal    Started                  pod/csi-cephfsplugin-mg6kx                                        Started container liveness-prometheus
+22m         Normal    Scheduled                pod/csi-cephfsplugin-provisioner-6d4bd9b669-4rpc8                 Successfully assigned rook-ceph/csi-cephfsplugin-provisioner-6d4bd9b669-4rpc8 to cloud-43050
+22m         Normal    Pulling                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-4rpc8                 Pulling image "k8s.gcr.io/sig-storage/csi-attacher:v3.4.0"
+22m         Normal    Pulled                   pod/csi-cephfsplugin-provisioner-6d4bd9b669-4rpc8                 Successfully pulled image "k8s.gcr.io/sig-storage/csi-attacher:v3.4.0" in 7.790027959s
+22m         Normal    Created                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-4rpc8                 Created container csi-attacher
+22m         Normal    Started                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-4rpc8                 Started container csi-attacher
+22m         Normal    Pulling                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-4rpc8                 Pulling image "k8s.gcr.io/sig-storage/csi-snapshotter:v5.0.1"
+21m         Normal    Pulled                   pod/csi-cephfsplugin-provisioner-6d4bd9b669-4rpc8                 Successfully pulled image "k8s.gcr.io/sig-storage/csi-snapshotter:v5.0.1" in 42.709092785s
+21m         Normal    Created                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-4rpc8                 Created container csi-snapshotter
+21m         Normal    Started                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-4rpc8                 Started container csi-snapshotter
+21m         Normal    Pulled                   pod/csi-cephfsplugin-provisioner-6d4bd9b669-4rpc8                 Container image "k8s.gcr.io/sig-storage/csi-resizer:v1.4.0" already present on machine
+21m         Normal    Created                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-4rpc8                 Created container csi-resizer
+21m         Normal    Started                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-4rpc8                 Started container csi-resizer
+21m         Normal    Pulled                   pod/csi-cephfsplugin-provisioner-6d4bd9b669-4rpc8                 Container image "k8s.gcr.io/sig-storage/csi-provisioner:v3.1.0" already present on machine
+21m         Normal    Created                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-4rpc8                 Created container csi-provisioner
+21m         Normal    Started                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-4rpc8                 Started container csi-provisioner
+21m         Normal    Pulled                   pod/csi-cephfsplugin-provisioner-6d4bd9b669-4rpc8                 Container image "quay.io/cephcsi/cephcsi:v3.5.1" already present on machine
+21m         Normal    Created                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-4rpc8                 Created container csi-cephfsplugin
+21m         Normal    Started                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-4rpc8                 Started container csi-cephfsplugin
+21m         Normal    Pulled                   pod/csi-cephfsplugin-provisioner-6d4bd9b669-4rpc8                 Container image "quay.io/cephcsi/cephcsi:v3.5.1" already present on machine
+21m         Normal    Created                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-4rpc8                 Created container liveness-prometheus
+21m         Normal    Started                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-4rpc8                 Started container liveness-prometheus
+22m         Normal    Scheduled                pod/csi-cephfsplugin-provisioner-6d4bd9b669-5m8vg                 Successfully assigned rook-ceph/csi-cephfsplugin-provisioner-6d4bd9b669-5m8vg to cloud-43813
+22m         Normal    Pulling                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-5m8vg                 Pulling image "k8s.gcr.io/sig-storage/csi-attacher:v3.4.0"
+22m         Normal    Pulled                   pod/csi-cephfsplugin-provisioner-6d4bd9b669-5m8vg                 Successfully pulled image "k8s.gcr.io/sig-storage/csi-attacher:v3.4.0" in 3.227465288s
+22m         Normal    Created                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-5m8vg                 Created container csi-attacher
+22m         Normal    Started                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-5m8vg                 Started container csi-attacher
+22m         Normal    Pulling                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-5m8vg                 Pulling image "k8s.gcr.io/sig-storage/csi-snapshotter:v5.0.1"
+22m         Normal    Pulled                   pod/csi-cephfsplugin-provisioner-6d4bd9b669-5m8vg                 Successfully pulled image "k8s.gcr.io/sig-storage/csi-snapshotter:v5.0.1" in 39.4892389s
+21m         Normal    Created                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-5m8vg                 Created container csi-snapshotter
+21m         Normal    Started                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-5m8vg                 Started container csi-snapshotter
+21m         Normal    Pulling                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-5m8vg                 Pulling image "k8s.gcr.io/sig-storage/csi-resizer:v1.4.0"
+21m         Normal    Pulled                   pod/csi-cephfsplugin-provisioner-6d4bd9b669-5m8vg                 Successfully pulled image "k8s.gcr.io/sig-storage/csi-resizer:v1.4.0" in 3.468229045s
+21m         Normal    Created                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-5m8vg                 Created container csi-resizer
+21m         Normal    Started                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-5m8vg                 Started container csi-resizer
+21m         Normal    Pulling                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-5m8vg                 Pulling image "k8s.gcr.io/sig-storage/csi-provisioner:v3.1.0"
+21m         Normal    Pulled                   pod/csi-cephfsplugin-provisioner-6d4bd9b669-5m8vg                 Successfully pulled image "k8s.gcr.io/sig-storage/csi-provisioner:v3.1.0" in 33.535590139s
+21m         Normal    Created                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-5m8vg                 Created container csi-provisioner
+21m         Normal    Started                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-5m8vg                 Started container csi-provisioner
+21m         Normal    Pulled                   pod/csi-cephfsplugin-provisioner-6d4bd9b669-5m8vg                 Container image "quay.io/cephcsi/cephcsi:v3.5.1" already present on machine
+21m         Normal    Created                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-5m8vg                 Created container csi-cephfsplugin
+21m         Normal    Started                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-5m8vg                 Started container csi-cephfsplugin
+21m         Normal    Pulled                   pod/csi-cephfsplugin-provisioner-6d4bd9b669-5m8vg                 Container image "quay.io/cephcsi/cephcsi:v3.5.1" already present on machine
+21m         Normal    Created                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-5m8vg                 Created container liveness-prometheus
+21m         Normal    Started                  pod/csi-cephfsplugin-provisioner-6d4bd9b669-5m8vg                 Started container liveness-prometheus
+22m         Normal    SuccessfulCreate         replicaset/csi-cephfsplugin-provisioner-6d4bd9b669                Created pod: csi-cephfsplugin-provisioner-6d4bd9b669-5m8vg
+22m         Normal    SuccessfulCreate         replicaset/csi-cephfsplugin-provisioner-6d4bd9b669                Created pod: csi-cephfsplugin-provisioner-6d4bd9b669-4rpc8
+22m         Normal    ScalingReplicaSet        deployment/csi-cephfsplugin-provisioner                           Scaled up replica set csi-cephfsplugin-provisioner-6d4bd9b669 to 2
+22m         Normal    SuccessfulCreate         daemonset/csi-cephfsplugin                                        Created pod: csi-cephfsplugin-8tftx
+22m         Normal    SuccessfulCreate         daemonset/csi-cephfsplugin                                        Created pod: csi-cephfsplugin-mg6kx
+22m         Normal    SuccessfulCreate         daemonset/csi-cephfsplugin                                        Created pod: csi-cephfsplugin-cjxkh
+22m         Normal    Scheduled                pod/csi-rbdplugin-7xvnh                                           Successfully assigned rook-ceph/csi-rbdplugin-7xvnh to cloud-43050
+22m         Normal    Pulling                  pod/csi-rbdplugin-7xvnh                                           Pulling image "k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.5.0"
+22m         Normal    Pulled                   pod/csi-rbdplugin-7xvnh                                           Successfully pulled image "k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.5.0" in 2.193088012s
+22m         Normal    Created                  pod/csi-rbdplugin-7xvnh                                           Created container driver-registrar
+22m         Normal    Started                  pod/csi-rbdplugin-7xvnh                                           Started container driver-registrar
+22m         Normal    Pulling                  pod/csi-rbdplugin-7xvnh                                           Pulling image "quay.io/cephcsi/cephcsi:v3.5.1"
+22m         Normal    Pulled                   pod/csi-rbdplugin-7xvnh                                           Successfully pulled image "quay.io/cephcsi/cephcsi:v3.5.1" in 40.424342096s
+21m         Normal    Created                  pod/csi-rbdplugin-7xvnh                                           Created container csi-rbdplugin
+21m         Normal    Started                  pod/csi-rbdplugin-7xvnh                                           Started container csi-rbdplugin
+21m         Normal    Pulled                   pod/csi-rbdplugin-7xvnh                                           Container image "quay.io/cephcsi/cephcsi:v3.5.1" already present on machine
+21m         Normal    Created                  pod/csi-rbdplugin-7xvnh                                           Created container liveness-prometheus
+21m         Normal    Started                  pod/csi-rbdplugin-7xvnh                                           Started container liveness-prometheus
+22m         Normal    Scheduled                pod/csi-rbdplugin-provisioner-6bcd78bb89-7f5cz                    Successfully assigned rook-ceph/csi-rbdplugin-provisioner-6bcd78bb89-7f5cz to cloud-43050
+22m         Normal    Pulling                  pod/csi-rbdplugin-provisioner-6bcd78bb89-7f5cz                    Pulling image "k8s.gcr.io/sig-storage/csi-provisioner:v3.1.0"
+22m         Normal    Pulled                   pod/csi-rbdplugin-provisioner-6bcd78bb89-7f5cz                    Successfully pulled image "k8s.gcr.io/sig-storage/csi-provisioner:v3.1.0" in 5.11299661s
+22m         Normal    Created                  pod/csi-rbdplugin-provisioner-6bcd78bb89-7f5cz                    Created container csi-provisioner
+22m         Normal    Started                  pod/csi-rbdplugin-provisioner-6bcd78bb89-7f5cz                    Started container csi-provisioner
+22m         Normal    Pulling                  pod/csi-rbdplugin-provisioner-6bcd78bb89-7f5cz                    Pulling image "k8s.gcr.io/sig-storage/csi-resizer:v1.4.0"
+21m         Normal    Pulled                   pod/csi-rbdplugin-provisioner-6bcd78bb89-7f5cz                    Successfully pulled image "k8s.gcr.io/sig-storage/csi-resizer:v1.4.0" in 42.48885834s
+21m         Normal    Created                  pod/csi-rbdplugin-provisioner-6bcd78bb89-7f5cz                    Created container csi-resizer
+21m         Normal    Started                  pod/csi-rbdplugin-provisioner-6bcd78bb89-7f5cz                    Started container csi-resizer
+21m         Normal    Pulled                   pod/csi-rbdplugin-provisioner-6bcd78bb89-7f5cz                    Container image "k8s.gcr.io/sig-storage/csi-attacher:v3.4.0" already present on machine
+21m         Normal    Created                  pod/csi-rbdplugin-provisioner-6bcd78bb89-7f5cz                    Created container csi-attacher
+21m         Normal    Started                  pod/csi-rbdplugin-provisioner-6bcd78bb89-7f5cz                    Started container csi-attacher
+21m         Normal    Pulling                  pod/csi-rbdplugin-provisioner-6bcd78bb89-7f5cz                    Pulling image "k8s.gcr.io/sig-storage/csi-snapshotter:v5.0.1"
+21m         Normal    Pulled                   pod/csi-rbdplugin-provisioner-6bcd78bb89-7f5cz                    Successfully pulled image "k8s.gcr.io/sig-storage/csi-snapshotter:v5.0.1" in 2.381536641s
+21m         Normal    Created                  pod/csi-rbdplugin-provisioner-6bcd78bb89-7f5cz                    Created container csi-snapshotter
+21m         Normal    Started                  pod/csi-rbdplugin-provisioner-6bcd78bb89-7f5cz                    Started container csi-snapshotter
+21m         Normal    Pulled                   pod/csi-rbdplugin-provisioner-6bcd78bb89-7f5cz                    Container image "quay.io/cephcsi/cephcsi:v3.5.1" already present on machine
+21m         Normal    Created                  pod/csi-rbdplugin-provisioner-6bcd78bb89-7f5cz                    Created container csi-rbdplugin
+21m         Normal    Started                  pod/csi-rbdplugin-provisioner-6bcd78bb89-7f5cz                    Started container csi-rbdplugin
+21m         Normal    Pulled                   pod/csi-rbdplugin-provisioner-6bcd78bb89-7f5cz                    Container image "quay.io/cephcsi/cephcsi:v3.5.1" already present on machine
+21m         Normal    Created                  pod/csi-rbdplugin-provisioner-6bcd78bb89-7f5cz                    Created container liveness-prometheus
+21m         Normal    Started                  pod/csi-rbdplugin-provisioner-6bcd78bb89-7f5cz                    Started container liveness-prometheus
+22m         Normal    Scheduled                pod/csi-rbdplugin-provisioner-6bcd78bb89-gx8hp                    Successfully assigned rook-ceph/csi-rbdplugin-provisioner-6bcd78bb89-gx8hp to cloud-43049
+22m         Normal    Pulling                  pod/csi-rbdplugin-provisioner-6bcd78bb89-gx8hp                    Pulling image "k8s.gcr.io/sig-storage/csi-provisioner:v3.1.0"
+22m         Normal    Pulled                   pod/csi-rbdplugin-provisioner-6bcd78bb89-gx8hp                    Successfully pulled image "k8s.gcr.io/sig-storage/csi-provisioner:v3.1.0" in 38.77452447s
+22m         Normal    Created                  pod/csi-rbdplugin-provisioner-6bcd78bb89-gx8hp                    Created container csi-provisioner
+22m         Normal    Started                  pod/csi-rbdplugin-provisioner-6bcd78bb89-gx8hp                    Started container csi-provisioner
+22m         Normal    Pulling                  pod/csi-rbdplugin-provisioner-6bcd78bb89-gx8hp                    Pulling image "k8s.gcr.io/sig-storage/csi-resizer:v1.4.0"
+22m         Normal    Pulled                   pod/csi-rbdplugin-provisioner-6bcd78bb89-gx8hp                    Successfully pulled image "k8s.gcr.io/sig-storage/csi-resizer:v1.4.0" in 3.770362143s
+22m         Normal    Created                  pod/csi-rbdplugin-provisioner-6bcd78bb89-gx8hp                    Created container csi-resizer
+21m         Normal    Started                  pod/csi-rbdplugin-provisioner-6bcd78bb89-gx8hp                    Started container csi-resizer
+21m         Normal    Pulling                  pod/csi-rbdplugin-provisioner-6bcd78bb89-gx8hp                    Pulling image "k8s.gcr.io/sig-storage/csi-attacher:v3.4.0"
+21m         Normal    Pulled                   pod/csi-rbdplugin-provisioner-6bcd78bb89-gx8hp                    Successfully pulled image "k8s.gcr.io/sig-storage/csi-attacher:v3.4.0" in 2.985574863s
+21m         Normal    Created                  pod/csi-rbdplugin-provisioner-6bcd78bb89-gx8hp                    Created container csi-attacher
+21m         Normal    Started                  pod/csi-rbdplugin-provisioner-6bcd78bb89-gx8hp                    Started container csi-attacher
+21m         Normal    Pulling                  pod/csi-rbdplugin-provisioner-6bcd78bb89-gx8hp                    Pulling image "k8s.gcr.io/sig-storage/csi-snapshotter:v5.0.1"
+21m         Normal    Pulled                   pod/csi-rbdplugin-provisioner-6bcd78bb89-gx8hp                    Successfully pulled image "k8s.gcr.io/sig-storage/csi-snapshotter:v5.0.1" in 2.932387319s
+21m         Normal    Created                  pod/csi-rbdplugin-provisioner-6bcd78bb89-gx8hp                    Created container csi-snapshotter
+21m         Normal    Started                  pod/csi-rbdplugin-provisioner-6bcd78bb89-gx8hp                    Started container csi-snapshotter
+21m         Normal    Pulled                   pod/csi-rbdplugin-provisioner-6bcd78bb89-gx8hp                    Container image "quay.io/cephcsi/cephcsi:v3.5.1" already present on machine
+21m         Normal    Created                  pod/csi-rbdplugin-provisioner-6bcd78bb89-gx8hp                    Created container csi-rbdplugin
+21m         Normal    Started                  pod/csi-rbdplugin-provisioner-6bcd78bb89-gx8hp                    Started container csi-rbdplugin
+21m         Normal    Pulled                   pod/csi-rbdplugin-provisioner-6bcd78bb89-gx8hp                    Container image "quay.io/cephcsi/cephcsi:v3.5.1" already present on machine
+21m         Normal    Created                  pod/csi-rbdplugin-provisioner-6bcd78bb89-gx8hp                    Created container liveness-prometheus
+21m         Normal    Started                  pod/csi-rbdplugin-provisioner-6bcd78bb89-gx8hp                    Started container liveness-prometheus
+22m         Normal    SuccessfulCreate         replicaset/csi-rbdplugin-provisioner-6bcd78bb89                   Created pod: csi-rbdplugin-provisioner-6bcd78bb89-7f5cz
+22m         Normal    SuccessfulCreate         replicaset/csi-rbdplugin-provisioner-6bcd78bb89                   Created pod: csi-rbdplugin-provisioner-6bcd78bb89-gx8hp
+22m         Normal    ScalingReplicaSet        deployment/csi-rbdplugin-provisioner                              Scaled up replica set csi-rbdplugin-provisioner-6bcd78bb89 to 2
+22m         Normal    Scheduled                pod/csi-rbdplugin-tkmr5                                           Successfully assigned rook-ceph/csi-rbdplugin-tkmr5 to cloud-43049
+22m         Normal    Pulling                  pod/csi-rbdplugin-tkmr5                                           Pulling image "k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.5.0"
+22m         Normal    Pulled                   pod/csi-rbdplugin-tkmr5                                           Successfully pulled image "k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.5.0" in 35.272966702s
+22m         Normal    Created                  pod/csi-rbdplugin-tkmr5                                           Created container driver-registrar
+22m         Normal    Started                  pod/csi-rbdplugin-tkmr5                                           Started container driver-registrar
+22m         Normal    Pulled                   pod/csi-rbdplugin-tkmr5                                           Container image "quay.io/cephcsi/cephcsi:v3.5.1" already present on machine
+22m         Normal    Created                  pod/csi-rbdplugin-tkmr5                                           Created container csi-rbdplugin
+22m         Normal    Started                  pod/csi-rbdplugin-tkmr5                                           Started container csi-rbdplugin
+22m         Normal    Pulled                   pod/csi-rbdplugin-tkmr5                                           Container image "quay.io/cephcsi/cephcsi:v3.5.1" already present on machine
+22m         Normal    Created                  pod/csi-rbdplugin-tkmr5                                           Created container liveness-prometheus
+22m         Normal    Started                  pod/csi-rbdplugin-tkmr5                                           Started container liveness-prometheus
+22m         Normal    Scheduled                pod/csi-rbdplugin-xdcx7                                           Successfully assigned rook-ceph/csi-rbdplugin-xdcx7 to cloud-43813
+22m         Normal    Pulling                  pod/csi-rbdplugin-xdcx7                                           Pulling image "k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.5.0"
+22m         Normal    Pulled                   pod/csi-rbdplugin-xdcx7                                           Successfully pulled image "k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.5.0" in 2.823696046s
+22m         Normal    Created                  pod/csi-rbdplugin-xdcx7                                           Created container driver-registrar
+22m         Normal    Started                  pod/csi-rbdplugin-xdcx7                                           Started container driver-registrar
+22m         Normal    Pulling                  pod/csi-rbdplugin-xdcx7                                           Pulling image "quay.io/cephcsi/cephcsi:v3.5.1"
+22m         Normal    Pulled                   pod/csi-rbdplugin-xdcx7                                           Successfully pulled image "quay.io/cephcsi/cephcsi:v3.5.1" in 36.649026863s
+22m         Normal    Created                  pod/csi-rbdplugin-xdcx7                                           Created container csi-rbdplugin
+21m         Normal    Started                  pod/csi-rbdplugin-xdcx7                                           Started container csi-rbdplugin
+21m         Normal    Pulled                   pod/csi-rbdplugin-xdcx7                                           Container image "quay.io/cephcsi/cephcsi:v3.5.1" already present on machine
+21m         Normal    Created                  pod/csi-rbdplugin-xdcx7                                           Created container liveness-prometheus
+21m         Normal    Started                  pod/csi-rbdplugin-xdcx7                                           Started container liveness-prometheus
+22m         Normal    SuccessfulCreate         daemonset/csi-rbdplugin                                           Created pod: csi-rbdplugin-xdcx7
+22m         Normal    SuccessfulCreate         daemonset/csi-rbdplugin                                           Created pod: csi-rbdplugin-7xvnh
+22m         Normal    SuccessfulCreate         daemonset/csi-rbdplugin                                           Created pod: csi-rbdplugin-tkmr5
+21m         Normal    LeaderElection           lease/external-attacher-leader-rook-ceph-cephfs-csi-ceph-com      csi-cephfsplugin-provisioner-6d4bd9b669-4rpc8 became leader
+21m         Normal    LeaderElection           lease/external-attacher-leader-rook-ceph-rbd-csi-ceph-com         csi-rbdplugin-provisioner-6bcd78bb89-7f5cz became leader
+21m         Normal    LeaderElection           lease/external-resizer-rook-ceph-cephfs-csi-ceph-com              csi-cephfsplugin-provisioner-6d4bd9b669-4rpc8 became leader
+21m         Normal    LeaderElection           lease/external-resizer-rook-ceph-rbd-csi-ceph-com                 csi-rbdplugin-provisioner-6bcd78bb89-gx8hp became leader
+21m         Normal    LeaderElection           lease/external-snapshotter-leader-rook-ceph-cephfs-csi-ceph-com   csi-cephfsplugin-provisioner-6d4bd9b669-4rpc8 became leader
+21m         Normal    LeaderElection           lease/external-snapshotter-leader-rook-ceph-rbd-csi-ceph-com      csi-rbdplugin-provisioner-6bcd78bb89-7f5cz became leader
+21m         Normal    LeaderElection           lease/rook-ceph-cephfs-csi-ceph-com                               csi-cephfsplugin-provisioner-6d4bd9b669-4rpc8 became leader
+16m         Normal    Scheduled                pod/rook-ceph-crashcollector-cloud-43049-777cfc7b-rbr25           Successfully assigned rook-ceph/rook-ceph-crashcollector-cloud-43049-777cfc7b-rbr25 to cloud-43049
+16m         Normal    Pulled                   pod/rook-ceph-crashcollector-cloud-43049-777cfc7b-rbr25           Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+16m         Normal    Created                  pod/rook-ceph-crashcollector-cloud-43049-777cfc7b-rbr25           Created container make-container-crash-dir
+16m         Normal    Started                  pod/rook-ceph-crashcollector-cloud-43049-777cfc7b-rbr25           Started container make-container-crash-dir
+16m         Normal    Pulled                   pod/rook-ceph-crashcollector-cloud-43049-777cfc7b-rbr25           Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+16m         Normal    Created                  pod/rook-ceph-crashcollector-cloud-43049-777cfc7b-rbr25           Created container chown-container-data-dir
+16m         Normal    Started                  pod/rook-ceph-crashcollector-cloud-43049-777cfc7b-rbr25           Started container chown-container-data-dir
+16m         Normal    Pulled                   pod/rook-ceph-crashcollector-cloud-43049-777cfc7b-rbr25           Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+16m         Normal    Created                  pod/rook-ceph-crashcollector-cloud-43049-777cfc7b-rbr25           Created container ceph-crash
+16m         Normal    Started                  pod/rook-ceph-crashcollector-cloud-43049-777cfc7b-rbr25           Started container ceph-crash
+16m         Normal    SuccessfulCreate         replicaset/rook-ceph-crashcollector-cloud-43049-777cfc7b          Created pod: rook-ceph-crashcollector-cloud-43049-777cfc7b-rbr25
+16m         Normal    ScalingReplicaSet        deployment/rook-ceph-crashcollector-cloud-43049                   Scaled up replica set rook-ceph-crashcollector-cloud-43049-777cfc7b to 1
+16m         Normal    Scheduled                pod/rook-ceph-crashcollector-cloud-43050-556cbb4546-2jlhh         Successfully assigned rook-ceph/rook-ceph-crashcollector-cloud-43050-556cbb4546-2jlhh to cloud-43050
+16m         Normal    Pulled                   pod/rook-ceph-crashcollector-cloud-43050-556cbb4546-2jlhh         Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+16m         Normal    Created                  pod/rook-ceph-crashcollector-cloud-43050-556cbb4546-2jlhh         Created container make-container-crash-dir
+16m         Normal    Started                  pod/rook-ceph-crashcollector-cloud-43050-556cbb4546-2jlhh         Started container make-container-crash-dir
+16m         Normal    Pulled                   pod/rook-ceph-crashcollector-cloud-43050-556cbb4546-2jlhh         Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+16m         Normal    Created                  pod/rook-ceph-crashcollector-cloud-43050-556cbb4546-2jlhh         Created container chown-container-data-dir
+16m         Normal    Started                  pod/rook-ceph-crashcollector-cloud-43050-556cbb4546-2jlhh         Started container chown-container-data-dir
+16m         Normal    Pulled                   pod/rook-ceph-crashcollector-cloud-43050-556cbb4546-2jlhh         Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+16m         Normal    Created                  pod/rook-ceph-crashcollector-cloud-43050-556cbb4546-2jlhh         Created container ceph-crash
+16m         Normal    Started                  pod/rook-ceph-crashcollector-cloud-43050-556cbb4546-2jlhh         Started container ceph-crash
+16m         Normal    SuccessfulCreate         replicaset/rook-ceph-crashcollector-cloud-43050-556cbb4546        Created pod: rook-ceph-crashcollector-cloud-43050-556cbb4546-2jlhh
+16m         Normal    ScalingReplicaSet        deployment/rook-ceph-crashcollector-cloud-43050                   Scaled up replica set rook-ceph-crashcollector-cloud-43050-556cbb4546 to 1
+16m         Normal    Scheduled                pod/rook-ceph-crashcollector-cloud-43813-7797b7ff8c-xlxbx         Successfully assigned rook-ceph/rook-ceph-crashcollector-cloud-43813-7797b7ff8c-xlxbx to cloud-43813
+16m         Normal    Pulled                   pod/rook-ceph-crashcollector-cloud-43813-7797b7ff8c-xlxbx         Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+16m         Normal    Created                  pod/rook-ceph-crashcollector-cloud-43813-7797b7ff8c-xlxbx         Created container make-container-crash-dir
+16m         Normal    Started                  pod/rook-ceph-crashcollector-cloud-43813-7797b7ff8c-xlxbx         Started container make-container-crash-dir
+16m         Normal    Pulled                   pod/rook-ceph-crashcollector-cloud-43813-7797b7ff8c-xlxbx         Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+16m         Normal    Created                  pod/rook-ceph-crashcollector-cloud-43813-7797b7ff8c-xlxbx         Created container chown-container-data-dir
+16m         Normal    Started                  pod/rook-ceph-crashcollector-cloud-43813-7797b7ff8c-xlxbx         Started container chown-container-data-dir
+16m         Normal    Pulled                   pod/rook-ceph-crashcollector-cloud-43813-7797b7ff8c-xlxbx         Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+16m         Normal    Created                  pod/rook-ceph-crashcollector-cloud-43813-7797b7ff8c-xlxbx         Created container ceph-crash
+16m         Normal    Started                  pod/rook-ceph-crashcollector-cloud-43813-7797b7ff8c-xlxbx         Started container ceph-crash
+16m         Normal    SuccessfulCreate         replicaset/rook-ceph-crashcollector-cloud-43813-7797b7ff8c        Created pod: rook-ceph-crashcollector-cloud-43813-7797b7ff8c-xlxbx
+16m         Normal    ScalingReplicaSet        deployment/rook-ceph-crashcollector-cloud-43813                   Scaled up replica set rook-ceph-crashcollector-cloud-43813-7797b7ff8c to 1
+24m         Normal    Scheduled                pod/rook-ceph-csi-detect-version-mjx6g                            Successfully assigned rook-ceph/rook-ceph-csi-detect-version-mjx6g to cloud-43049
+24m         Normal    Pulling                  pod/rook-ceph-csi-detect-version-mjx6g                            Pulling image "rook/ceph:v1.8.8"
+23m         Normal    Pulled                   pod/rook-ceph-csi-detect-version-mjx6g                            Successfully pulled image "rook/ceph:v1.8.8" in 32.338493706s
+23m         Normal    Created                  pod/rook-ceph-csi-detect-version-mjx6g                            Created container init-copy-binaries
+23m         Normal    Started                  pod/rook-ceph-csi-detect-version-mjx6g                            Started container init-copy-binaries
+23m         Normal    Pulling                  pod/rook-ceph-csi-detect-version-mjx6g                            Pulling image "quay.io/cephcsi/cephcsi:v3.5.1"
+22m         Normal    Pulled                   pod/rook-ceph-csi-detect-version-mjx6g                            Successfully pulled image "quay.io/cephcsi/cephcsi:v3.5.1" in 33.646902563s
+22m         Normal    Created                  pod/rook-ceph-csi-detect-version-mjx6g                            Created container cmd-reporter
+22m         Normal    Started                  pod/rook-ceph-csi-detect-version-mjx6g                            Started container cmd-reporter
+24m         Normal    SuccessfulCreate         job/rook-ceph-csi-detect-version                                  Created pod: rook-ceph-csi-detect-version-mjx6g
+22m         Normal    Completed                job/rook-ceph-csi-detect-version                                  Job completed
+8m54s       Normal    Scheduled                pod/rook-ceph-detect-version-68d65                                Successfully assigned rook-ceph/rook-ceph-detect-version-68d65 to cloud-43049
+8m53s       Normal    Pulled                   pod/rook-ceph-detect-version-68d65                                Container image "rook/ceph:v1.8.8" already present on machine
+8m53s       Normal    Created                  pod/rook-ceph-detect-version-68d65                                Created container init-copy-binaries
+8m52s       Normal    Started                  pod/rook-ceph-detect-version-68d65                                Started container init-copy-binaries
+8m51s       Normal    Pulled                   pod/rook-ceph-detect-version-68d65                                Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+8m51s       Normal    Created                  pod/rook-ceph-detect-version-68d65                                Created container cmd-reporter
+8m51s       Normal    Started                  pod/rook-ceph-detect-version-68d65                                Started container cmd-reporter
+11m         Normal    Scheduled                pod/rook-ceph-detect-version-8lzjh                                Successfully assigned rook-ceph/rook-ceph-detect-version-8lzjh to cloud-43049
+11m         Normal    Pulled                   pod/rook-ceph-detect-version-8lzjh                                Container image "rook/ceph:v1.8.8" already present on machine
+11m         Normal    Created                  pod/rook-ceph-detect-version-8lzjh                                Created container init-copy-binaries
+11m         Normal    Started                  pod/rook-ceph-detect-version-8lzjh                                Started container init-copy-binaries
+11m         Normal    Pulled                   pod/rook-ceph-detect-version-8lzjh                                Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+11m         Normal    Created                  pod/rook-ceph-detect-version-8lzjh                                Created container cmd-reporter
+11m         Normal    Started                  pod/rook-ceph-detect-version-8lzjh                                Started container cmd-reporter
+7m29s       Normal    Scheduled                pod/rook-ceph-detect-version-8qwwp                                Successfully assigned rook-ceph/rook-ceph-detect-version-8qwwp to cloud-43049
+7m28s       Normal    Pulled                   pod/rook-ceph-detect-version-8qwwp                                Container image "rook/ceph:v1.8.8" already present on machine
+7m27s       Normal    Created                  pod/rook-ceph-detect-version-8qwwp                                Created container init-copy-binaries
+7m27s       Normal    Started                  pod/rook-ceph-detect-version-8qwwp                                Started container init-copy-binaries
+7m26s       Normal    Pulled                   pod/rook-ceph-detect-version-8qwwp                                Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+7m26s       Normal    Created                  pod/rook-ceph-detect-version-8qwwp                                Created container cmd-reporter
+7m25s       Normal    Started                  pod/rook-ceph-detect-version-8qwwp                                Started container cmd-reporter
+2m25s       Normal    Scheduled                pod/rook-ceph-detect-version-8spxx                                Successfully assigned rook-ceph/rook-ceph-detect-version-8spxx to cloud-43049
+2m23s       Normal    Pulled                   pod/rook-ceph-detect-version-8spxx                                Container image "rook/ceph:v1.8.8" already present on machine
+2m23s       Normal    Created                  pod/rook-ceph-detect-version-8spxx                                Created container init-copy-binaries
+2m23s       Normal    Started                  pod/rook-ceph-detect-version-8spxx                                Started container init-copy-binaries
+2m22s       Normal    Pulled                   pod/rook-ceph-detect-version-8spxx                                Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+2m21s       Normal    Created                  pod/rook-ceph-detect-version-8spxx                                Created container cmd-reporter
+2m21s       Normal    Started                  pod/rook-ceph-detect-version-8spxx                                Started container cmd-reporter
+14m         Normal    Scheduled                pod/rook-ceph-detect-version-c79nj                                Successfully assigned rook-ceph/rook-ceph-detect-version-c79nj to cloud-43049
+14m         Warning   FailedCreatePodSandBox   pod/rook-ceph-detect-version-c79nj                                Failed to create pod sandbox: rpc error: code = Unknown desc = failed to set up sandbox container "7701a3dfc41c3af4d094139430049ce7849b54b040944f70ad250fe15dffa8bc" network for pod "rook-ceph-detect-version-c79nj": networkPlugin cni failed to set up pod "rook-ceph-detect-version-c79nj_rook-ceph" network: Calico CNI panicked during ADD: runtime error: invalid memory address or nil pointer dereference
+14m         Normal    SandboxChanged           pod/rook-ceph-detect-version-c79nj                                Pod sandbox changed, it will be killed and re-created.
+14m         Normal    Pulled                   pod/rook-ceph-detect-version-c79nj                                Container image "rook/ceph:v1.8.8" already present on machine
+14m         Normal    Created                  pod/rook-ceph-detect-version-c79nj                                Created container init-copy-binaries
+14m         Normal    Started                  pod/rook-ceph-detect-version-c79nj                                Started container init-copy-binaries
+14m         Normal    Pulled                   pod/rook-ceph-detect-version-c79nj                                Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+14m         Normal    Created                  pod/rook-ceph-detect-version-c79nj                                Created container cmd-reporter
+14m         Normal    Started                  pod/rook-ceph-detect-version-c79nj                                Started container cmd-reporter
+5m18s       Normal    Scheduled                pod/rook-ceph-detect-version-cxl7x                                Successfully assigned rook-ceph/rook-ceph-detect-version-cxl7x to cloud-43049
+5m17s       Normal    Pulled                   pod/rook-ceph-detect-version-cxl7x                                Container image "rook/ceph:v1.8.8" already present on machine
+5m17s       Normal    Created                  pod/rook-ceph-detect-version-cxl7x                                Created container init-copy-binaries
+5m16s       Normal    Started                  pod/rook-ceph-detect-version-cxl7x                                Started container init-copy-binaries
+5m15s       Normal    Pulled                   pod/rook-ceph-detect-version-cxl7x                                Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+5m15s       Normal    Created                  pod/rook-ceph-detect-version-cxl7x                                Created container cmd-reporter
+5m15s       Normal    Started                  pod/rook-ceph-detect-version-cxl7x                                Started container cmd-reporter
+13m         Normal    Scheduled                pod/rook-ceph-detect-version-dgwj8                                Successfully assigned rook-ceph/rook-ceph-detect-version-dgwj8 to cloud-43049
+13m         Normal    Pulled                   pod/rook-ceph-detect-version-dgwj8                                Container image "rook/ceph:v1.8.8" already present on machine
+13m         Normal    Created                  pod/rook-ceph-detect-version-dgwj8                                Created container init-copy-binaries
+13m         Normal    Started                  pod/rook-ceph-detect-version-dgwj8                                Started container init-copy-binaries
+13m         Normal    Pulled                   pod/rook-ceph-detect-version-dgwj8                                Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+13m         Normal    Created                  pod/rook-ceph-detect-version-dgwj8                                Created container cmd-reporter
+13m         Normal    Started                  pod/rook-ceph-detect-version-dgwj8                                Started container cmd-reporter
+8m14s       Normal    Scheduled                pod/rook-ceph-detect-version-jklxt                                Successfully assigned rook-ceph/rook-ceph-detect-version-jklxt to cloud-43049
+8m12s       Normal    Pulled                   pod/rook-ceph-detect-version-jklxt                                Container image "rook/ceph:v1.8.8" already present on machine
+8m12s       Normal    Created                  pod/rook-ceph-detect-version-jklxt                                Created container init-copy-binaries
+8m12s       Normal    Started                  pod/rook-ceph-detect-version-jklxt                                Started container init-copy-binaries
+8m11s       Normal    Pulled                   pod/rook-ceph-detect-version-jklxt                                Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+8m10s       Normal    Created                  pod/rook-ceph-detect-version-jklxt                                Created container cmd-reporter
+8m10s       Normal    Started                  pod/rook-ceph-detect-version-jklxt                                Started container cmd-reporter
+6m42s       Normal    Scheduled                pod/rook-ceph-detect-version-khm95                                Successfully assigned rook-ceph/rook-ceph-detect-version-khm95 to cloud-43049
+6m40s       Normal    Pulled                   pod/rook-ceph-detect-version-khm95                                Container image "rook/ceph:v1.8.8" already present on machine
+6m40s       Normal    Created                  pod/rook-ceph-detect-version-khm95                                Created container init-copy-binaries
+6m40s       Normal    Started                  pod/rook-ceph-detect-version-khm95                                Started container init-copy-binaries
+6m39s       Normal    Pulled                   pod/rook-ceph-detect-version-khm95                                Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+6m38s       Normal    Created                  pod/rook-ceph-detect-version-khm95                                Created container cmd-reporter
+6m38s       Normal    Started                  pod/rook-ceph-detect-version-khm95                                Started container cmd-reporter
+99s         Normal    Scheduled                pod/rook-ceph-detect-version-qxjls                                Successfully assigned rook-ceph/rook-ceph-detect-version-qxjls to cloud-43049
+98s         Normal    Pulled                   pod/rook-ceph-detect-version-qxjls                                Container image "rook/ceph:v1.8.8" already present on machine
+97s         Normal    Created                  pod/rook-ceph-detect-version-qxjls                                Created container init-copy-binaries
+97s         Normal    Started                  pod/rook-ceph-detect-version-qxjls                                Started container init-copy-binaries
+96s         Normal    Pulled                   pod/rook-ceph-detect-version-qxjls                                Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+96s         Normal    Created                  pod/rook-ceph-detect-version-qxjls                                Created container cmd-reporter
+95s         Normal    Started                  pod/rook-ceph-detect-version-qxjls                                Started container cmd-reporter
+50s         Normal    Scheduled                pod/rook-ceph-detect-version-qz54c                                Successfully assigned rook-ceph/rook-ceph-detect-version-qz54c to cloud-43049
+49s         Normal    Pulled                   pod/rook-ceph-detect-version-qz54c                                Container image "rook/ceph:v1.8.8" already present on machine
+49s         Normal    Created                  pod/rook-ceph-detect-version-qz54c                                Created container init-copy-binaries
+48s         Normal    Started                  pod/rook-ceph-detect-version-qz54c                                Started container init-copy-binaries
+47s         Normal    Pulled                   pod/rook-ceph-detect-version-qz54c                                Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+47s         Normal    Created                  pod/rook-ceph-detect-version-qz54c                                Created container cmd-reporter
+47s         Normal    Started                  pod/rook-ceph-detect-version-qz54c                                Started container cmd-reporter
+46s         Normal    Killing                  pod/rook-ceph-detect-version-qz54c                                Stopping container cmd-reporter
+24m         Normal    Scheduled                pod/rook-ceph-detect-version-s2nj8                                Successfully assigned rook-ceph/rook-ceph-detect-version-s2nj8 to cloud-43049
+24m         Normal    Pulling                  pod/rook-ceph-detect-version-s2nj8                                Pulling image "rook/ceph:v1.8.8"
+23m         Normal    Pulled                   pod/rook-ceph-detect-version-s2nj8                                Successfully pulled image "rook/ceph:v1.8.8" in 30.469168384s
+23m         Normal    Created                  pod/rook-ceph-detect-version-s2nj8                                Created container init-copy-binaries
+23m         Normal    Started                  pod/rook-ceph-detect-version-s2nj8                                Started container init-copy-binaries
+23m         Normal    Pulling                  pod/rook-ceph-detect-version-s2nj8                                Pulling image "quay.io/ceph/ceph:v16.2.7"
+22m         Normal    Pulled                   pod/rook-ceph-detect-version-s2nj8                                Successfully pulled image "quay.io/ceph/ceph:v16.2.7" in 1m5.007568459s
+22m         Normal    Created                  pod/rook-ceph-detect-version-s2nj8                                Created container cmd-reporter
+22m         Normal    Started                  pod/rook-ceph-detect-version-s2nj8                                Started container cmd-reporter
+13m         Normal    Scheduled                pod/rook-ceph-detect-version-zrmql                                Successfully assigned rook-ceph/rook-ceph-detect-version-zrmql to cloud-43049
+13m         Normal    Pulled                   pod/rook-ceph-detect-version-zrmql                                Container image "rook/ceph:v1.8.8" already present on machine
+13m         Normal    Created                  pod/rook-ceph-detect-version-zrmql                                Created container init-copy-binaries
+13m         Normal    Started                  pod/rook-ceph-detect-version-zrmql                                Started container init-copy-binaries
+13m         Normal    Pulled                   pod/rook-ceph-detect-version-zrmql                                Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+13m         Normal    Created                  pod/rook-ceph-detect-version-zrmql                                Created container cmd-reporter
+13m         Normal    Started                  pod/rook-ceph-detect-version-zrmql                                Started container cmd-reporter
+24m         Normal    SuccessfulCreate         job/rook-ceph-detect-version                                      Created pod: rook-ceph-detect-version-s2nj8
+22m         Normal    Completed                job/rook-ceph-detect-version                                      Job completed
+14m         Normal    SuccessfulCreate         job/rook-ceph-detect-version                                      Created pod: rook-ceph-detect-version-c79nj
+14m         Normal    Completed                job/rook-ceph-detect-version                                      Job completed
+13m         Normal    SuccessfulCreate         job/rook-ceph-detect-version                                      Created pod: rook-ceph-detect-version-dgwj8
+13m         Normal    Completed                job/rook-ceph-detect-version                                      Job completed
+13m         Normal    SuccessfulCreate         job/rook-ceph-detect-version                                      Created pod: rook-ceph-detect-version-zrmql
+13m         Normal    Completed                job/rook-ceph-detect-version                                      Job completed
+11m         Normal    SuccessfulCreate         job/rook-ceph-detect-version                                      Created pod: rook-ceph-detect-version-8lzjh
+11m         Normal    Completed                job/rook-ceph-detect-version                                      Job completed
+8m54s       Normal    SuccessfulCreate         job/rook-ceph-detect-version                                      Created pod: rook-ceph-detect-version-68d65
+8m50s       Normal    Completed                job/rook-ceph-detect-version                                      Job completed
+8m14s       Normal    SuccessfulCreate         job/rook-ceph-detect-version                                      Created pod: rook-ceph-detect-version-jklxt
+8m10s       Normal    Completed                job/rook-ceph-detect-version                                      Job completed
+7m29s       Normal    SuccessfulCreate         job/rook-ceph-detect-version                                      Created pod: rook-ceph-detect-version-8qwwp
+7m25s       Normal    Completed                job/rook-ceph-detect-version                                      Job completed
+6m42s       Normal    SuccessfulCreate         job/rook-ceph-detect-version                                      Created pod: rook-ceph-detect-version-khm95
+6m38s       Normal    Completed                job/rook-ceph-detect-version                                      Job completed
+5m18s       Normal    SuccessfulCreate         job/rook-ceph-detect-version                                      Created pod: rook-ceph-detect-version-cxl7x
+5m14s       Normal    Completed                job/rook-ceph-detect-version                                      Job completed
+2m25s       Normal    SuccessfulCreate         job/rook-ceph-detect-version                                      Created pod: rook-ceph-detect-version-8spxx
+2m20s       Normal    Completed                job/rook-ceph-detect-version                                      Job completed
+99s         Normal    SuccessfulCreate         job/rook-ceph-detect-version                                      Created pod: rook-ceph-detect-version-qxjls
+95s         Normal    Completed                job/rook-ceph-detect-version                                      Job completed
+51s         Normal    SuccessfulCreate         job/rook-ceph-detect-version                                      Created pod: rook-ceph-detect-version-qz54c
+46s         Normal    Completed                job/rook-ceph-detect-version                                      Job completed
+2m33s       Normal    Scheduled                pod/rook-ceph-mds-myfs-a-8664b57799-njttv                         Successfully assigned rook-ceph/rook-ceph-mds-myfs-a-8664b57799-njttv to cloud-43049
+2m32s       Normal    Pulled                   pod/rook-ceph-mds-myfs-a-8664b57799-njttv                         Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+2m32s       Normal    Created                  pod/rook-ceph-mds-myfs-a-8664b57799-njttv                         Created container chown-container-data-dir
+2m32s       Normal    Started                  pod/rook-ceph-mds-myfs-a-8664b57799-njttv                         Started container chown-container-data-dir
+2m31s       Normal    Pulled                   pod/rook-ceph-mds-myfs-a-8664b57799-njttv                         Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+2m31s       Normal    Created                  pod/rook-ceph-mds-myfs-a-8664b57799-njttv                         Created container mds
+2m31s       Normal    Started                  pod/rook-ceph-mds-myfs-a-8664b57799-njttv                         Started container mds
+2m34s       Normal    SuccessfulCreate         replicaset/rook-ceph-mds-myfs-a-8664b57799                        Created pod: rook-ceph-mds-myfs-a-8664b57799-njttv
+2m34s       Normal    ScalingReplicaSet        deployment/rook-ceph-mds-myfs-a                                   Scaled up replica set rook-ceph-mds-myfs-a-8664b57799 to 1
+2m32s       Normal    Scheduled                pod/rook-ceph-mds-myfs-b-b9854fff-f62xt                           Successfully assigned rook-ceph/rook-ceph-mds-myfs-b-b9854fff-f62xt to cloud-43813
+2m30s       Normal    Pulled                   pod/rook-ceph-mds-myfs-b-b9854fff-f62xt                           Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+2m30s       Normal    Created                  pod/rook-ceph-mds-myfs-b-b9854fff-f62xt                           Created container chown-container-data-dir
+2m30s       Normal    Started                  pod/rook-ceph-mds-myfs-b-b9854fff-f62xt                           Started container chown-container-data-dir
+2m29s       Normal    Pulled                   pod/rook-ceph-mds-myfs-b-b9854fff-f62xt                           Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+2m29s       Normal    Created                  pod/rook-ceph-mds-myfs-b-b9854fff-f62xt                           Created container mds
+2m29s       Normal    Started                  pod/rook-ceph-mds-myfs-b-b9854fff-f62xt                           Started container mds
+2m32s       Normal    SuccessfulCreate         replicaset/rook-ceph-mds-myfs-b-b9854fff                          Created pod: rook-ceph-mds-myfs-b-b9854fff-f62xt
+2m32s       Normal    ScalingReplicaSet        deployment/rook-ceph-mds-myfs-b                                   Scaled up replica set rook-ceph-mds-myfs-b-b9854fff to 1
+2m42s       Normal    NoPods                   poddisruptionbudget/rook-ceph-mds-myfs                            No matching pods found
+16m         Normal    Scheduled                pod/rook-ceph-mgr-a-b5c4866bc-npqlt                               Successfully assigned rook-ceph/rook-ceph-mgr-a-b5c4866bc-npqlt to cloud-43049
+16m         Normal    Pulled                   pod/rook-ceph-mgr-a-b5c4866bc-npqlt                               Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+16m         Normal    Created                  pod/rook-ceph-mgr-a-b5c4866bc-npqlt                               Created container chown-container-data-dir
+16m         Normal    Started                  pod/rook-ceph-mgr-a-b5c4866bc-npqlt                               Started container chown-container-data-dir
+16m         Normal    Pulled                   pod/rook-ceph-mgr-a-b5c4866bc-npqlt                               Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+16m         Normal    Created                  pod/rook-ceph-mgr-a-b5c4866bc-npqlt                               Created container mgr
+16m         Normal    Started                  pod/rook-ceph-mgr-a-b5c4866bc-npqlt                               Started container mgr
+16m         Normal    SuccessfulCreate         replicaset/rook-ceph-mgr-a-b5c4866bc                              Created pod: rook-ceph-mgr-a-b5c4866bc-npqlt
+16m         Normal    ScalingReplicaSet        deployment/rook-ceph-mgr-a                                        Scaled up replica set rook-ceph-mgr-a-b5c4866bc to 1
+21m         Warning   FailedScheduling         pod/rook-ceph-mon-a-c897c9645-dggkn                               0/4 nodes are available: 1 node(s) didn't match pod affinity/anti-affinity, 1 node(s) didn't match pod anti-affinity rules, 1 node(s) had taint {node-role.kubernetes.io/master: }, that the pod didn't tolerate, 2 node(s) had volume node affinity conflict.
+19m         Warning   FailedScheduling         pod/rook-ceph-mon-a-c897c9645-dggkn                               0/4 nodes are available: 1 node(s) didn't match pod affinity/anti-affinity, 1 node(s) didn't match pod anti-affinity rules, 1 node(s) had taint {node-role.kubernetes.io/master: }, that the pod didn't tolerate, 2 node(s) had volume node affinity conflict.
+19m         Normal    Scheduled                pod/rook-ceph-mon-a-c897c9645-dggkn                               Successfully assigned rook-ceph/rook-ceph-mon-a-c897c9645-dggkn to cloud-43049
+19m         Normal    Pulled                   pod/rook-ceph-mon-a-c897c9645-dggkn                               Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+19m         Normal    Created                  pod/rook-ceph-mon-a-c897c9645-dggkn                               Created container chown-container-data-dir
+19m         Normal    Started                  pod/rook-ceph-mon-a-c897c9645-dggkn                               Started container chown-container-data-dir
+19m         Normal    Pulled                   pod/rook-ceph-mon-a-c897c9645-dggkn                               Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+19m         Normal    Created                  pod/rook-ceph-mon-a-c897c9645-dggkn                               Created container init-mon-fs
+19m         Normal    Started                  pod/rook-ceph-mon-a-c897c9645-dggkn                               Started container init-mon-fs
+19m         Normal    Pulled                   pod/rook-ceph-mon-a-c897c9645-dggkn                               Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+19m         Normal    Created                  pod/rook-ceph-mon-a-c897c9645-dggkn                               Created container mon
+19m         Normal    Started                  pod/rook-ceph-mon-a-c897c9645-dggkn                               Started container mon
+21m         Normal    SuccessfulCreate         replicaset/rook-ceph-mon-a-c897c9645                              Created pod: rook-ceph-mon-a-c897c9645-dggkn
+22m         Normal    Scheduled                pod/rook-ceph-mon-a-canary-696bc5594d-zck4v                       Successfully assigned rook-ceph/rook-ceph-mon-a-canary-696bc5594d-zck4v to cloud-43049
+21m         Normal    Pulled                   pod/rook-ceph-mon-a-canary-696bc5594d-zck4v                       Container image "rook/ceph:v1.8.8" already present on machine
+21m         Normal    Created                  pod/rook-ceph-mon-a-canary-696bc5594d-zck4v                       Created container mon
+21m         Normal    Started                  pod/rook-ceph-mon-a-canary-696bc5594d-zck4v                       Started container mon
+20m         Normal    Killing                  pod/rook-ceph-mon-a-canary-696bc5594d-zck4v                       Stopping container mon
+22m         Normal    SuccessfulCreate         replicaset/rook-ceph-mon-a-canary-696bc5594d                      Created pod: rook-ceph-mon-a-canary-696bc5594d-zck4v
+22m         Normal    ScalingReplicaSet        deployment/rook-ceph-mon-a-canary                                 Scaled up replica set rook-ceph-mon-a-canary-696bc5594d to 1
+22m         Normal    WaitForFirstConsumer     persistentvolumeclaim/rook-ceph-mon-a                             waiting for first consumer to be created before binding
+21m         Normal    ScalingReplicaSet        deployment/rook-ceph-mon-a                                        Scaled up replica set rook-ceph-mon-a-c897c9645 to 1
+18m         Normal    Scheduled                pod/rook-ceph-mon-b-58b8fd94fb-f5642                              Successfully assigned rook-ceph/rook-ceph-mon-b-58b8fd94fb-f5642 to cloud-43050
+18m         Normal    Pulling                  pod/rook-ceph-mon-b-58b8fd94fb-f5642                              Pulling image "quay.io/ceph/ceph:v16.2.7"
+17m         Normal    Pulled                   pod/rook-ceph-mon-b-58b8fd94fb-f5642                              Successfully pulled image "quay.io/ceph/ceph:v16.2.7" in 30.639875514s
+17m         Normal    Created                  pod/rook-ceph-mon-b-58b8fd94fb-f5642                              Created container chown-container-data-dir
+17m         Normal    Started                  pod/rook-ceph-mon-b-58b8fd94fb-f5642                              Started container chown-container-data-dir
+17m         Normal    Pulled                   pod/rook-ceph-mon-b-58b8fd94fb-f5642                              Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+17m         Normal    Created                  pod/rook-ceph-mon-b-58b8fd94fb-f5642                              Created container init-mon-fs
+17m         Normal    Started                  pod/rook-ceph-mon-b-58b8fd94fb-f5642                              Started container init-mon-fs
+17m         Normal    Pulled                   pod/rook-ceph-mon-b-58b8fd94fb-f5642                              Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+17m         Normal    Created                  pod/rook-ceph-mon-b-58b8fd94fb-f5642                              Created container mon
+17m         Normal    Started                  pod/rook-ceph-mon-b-58b8fd94fb-f5642                              Started container mon
+18m         Normal    SuccessfulCreate         replicaset/rook-ceph-mon-b-58b8fd94fb                             Created pod: rook-ceph-mon-b-58b8fd94fb-f5642
+22m         Normal    Scheduled                pod/rook-ceph-mon-b-canary-7f4669d4d7-qgvkb                       Successfully assigned rook-ceph/rook-ceph-mon-b-canary-7f4669d4d7-qgvkb to cloud-43050
+21m         Warning   FailedCreatePodSandBox   pod/rook-ceph-mon-b-canary-7f4669d4d7-qgvkb                       Failed to create pod sandbox: rpc error: code = Unknown desc = failed to set up sandbox container "5f0f112d7fb8f833ee037ed517140033109bc553b4ec9f3e503613a7a459814f" network for pod "rook-ceph-mon-b-canary-7f4669d4d7-qgvkb": networkPlugin cni failed to set up pod "rook-ceph-mon-b-canary-7f4669d4d7-qgvkb_rook-ceph" network: failed to Statfs "/proc/7561/ns/net": no such file or directory
+22m         Normal    SuccessfulCreate         replicaset/rook-ceph-mon-b-canary-7f4669d4d7                      Created pod: rook-ceph-mon-b-canary-7f4669d4d7-qgvkb
+22m         Normal    ScalingReplicaSet        deployment/rook-ceph-mon-b-canary                                 Scaled up replica set rook-ceph-mon-b-canary-7f4669d4d7 to 1
+22m         Normal    WaitForFirstConsumer     persistentvolumeclaim/rook-ceph-mon-b                             waiting for first consumer to be created before binding
+18m         Normal    ScalingReplicaSet        deployment/rook-ceph-mon-b                                        Scaled up replica set rook-ceph-mon-b-58b8fd94fb to 1
+17m         Normal    Scheduled                pod/rook-ceph-mon-c-5bcc45bd45-4csvp                              Successfully assigned rook-ceph/rook-ceph-mon-c-5bcc45bd45-4csvp to cloud-43813
+17m         Normal    Pulling                  pod/rook-ceph-mon-c-5bcc45bd45-4csvp                              Pulling image "quay.io/ceph/ceph:v16.2.7"
+16m         Normal    Pulled                   pod/rook-ceph-mon-c-5bcc45bd45-4csvp                              Successfully pulled image "quay.io/ceph/ceph:v16.2.7" in 28.974300382s
+16m         Normal    Created                  pod/rook-ceph-mon-c-5bcc45bd45-4csvp                              Created container chown-container-data-dir
+16m         Normal    Started                  pod/rook-ceph-mon-c-5bcc45bd45-4csvp                              Started container chown-container-data-dir
+16m         Normal    Pulled                   pod/rook-ceph-mon-c-5bcc45bd45-4csvp                              Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+16m         Normal    Created                  pod/rook-ceph-mon-c-5bcc45bd45-4csvp                              Created container init-mon-fs
+16m         Normal    Started                  pod/rook-ceph-mon-c-5bcc45bd45-4csvp                              Started container init-mon-fs
+16m         Normal    Pulled                   pod/rook-ceph-mon-c-5bcc45bd45-4csvp                              Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+16m         Normal    Created                  pod/rook-ceph-mon-c-5bcc45bd45-4csvp                              Created container mon
+16m         Normal    Started                  pod/rook-ceph-mon-c-5bcc45bd45-4csvp                              Started container mon
+17m         Normal    SuccessfulCreate         replicaset/rook-ceph-mon-c-5bcc45bd45                             Created pod: rook-ceph-mon-c-5bcc45bd45-4csvp
+22m         Normal    Scheduled                pod/rook-ceph-mon-c-canary-7d859b8b6-qpgvs                        Successfully assigned rook-ceph/rook-ceph-mon-c-canary-7d859b8b6-qpgvs to cloud-43813
+21m         Normal    Pulling                  pod/rook-ceph-mon-c-canary-7d859b8b6-qpgvs                        Pulling image "rook/ceph:v1.8.8"
+21m         Normal    Pulled                   pod/rook-ceph-mon-c-canary-7d859b8b6-qpgvs                        Successfully pulled image "rook/ceph:v1.8.8" in 33.593351028s
+21m         Warning   Failed                   pod/rook-ceph-mon-c-canary-7d859b8b6-qpgvs                        Error: cannot find volume "rook-config-override" to mount into container "mon"
+22m         Normal    SuccessfulCreate         replicaset/rook-ceph-mon-c-canary-7d859b8b6                       Created pod: rook-ceph-mon-c-canary-7d859b8b6-qpgvs
+22m         Normal    ScalingReplicaSet        deployment/rook-ceph-mon-c-canary                                 Scaled up replica set rook-ceph-mon-c-canary-7d859b8b6 to 1
+22m         Normal    WaitForFirstConsumer     persistentvolumeclaim/rook-ceph-mon-c                             waiting for first consumer to be created before binding
+17m         Normal    ScalingReplicaSet        deployment/rook-ceph-mon-c                                        Scaled up replica set rook-ceph-mon-c-5bcc45bd45 to 1
+27m         Normal    Scheduled                pod/rook-ceph-operator-84985d69d4-grzjb                           Successfully assigned rook-ceph/rook-ceph-operator-84985d69d4-grzjb to cloud-43050
+27m         Normal    Pulling                  pod/rook-ceph-operator-84985d69d4-grzjb                           Pulling image "rook/ceph:v1.8.8"
+26m         Normal    Pulled                   pod/rook-ceph-operator-84985d69d4-grzjb                           Successfully pulled image "rook/ceph:v1.8.8" in 37.347880895s
+26m         Normal    Created                  pod/rook-ceph-operator-84985d69d4-grzjb                           Created container rook-ceph-operator
+26m         Normal    Started                  pod/rook-ceph-operator-84985d69d4-grzjb                           Started container rook-ceph-operator
+27m         Normal    SuccessfulCreate         replicaset/rook-ceph-operator-84985d69d4                          Created pod: rook-ceph-operator-84985d69d4-grzjb
+27m         Normal    ScalingReplicaSet        deployment/rook-ceph-operator                                     Scaled up replica set rook-ceph-operator-84985d69d4 to 1
+112s        Normal    Scheduled                pod/rook-ceph-osd-prepare-set1-data-0dslnx-hd8rh                  Successfully assigned rook-ceph/rook-ceph-osd-prepare-set1-data-0dslnx-hd8rh to cloud-43049
+112s        Normal    SuccessfulMountVolume    pod/rook-ceph-osd-prepare-set1-data-0dslnx-hd8rh                  MapVolume.MapPodDevice succeeded for volume "cloud-43049-osd" globalMapPath "/var/lib/kubelet/plugins/kubernetes.io~local-volume/volumeDevices/cloud-43049-osd"
+112s        Normal    SuccessfulMountVolume    pod/rook-ceph-osd-prepare-set1-data-0dslnx-hd8rh                  MapVolume.MapPodDevice succeeded for volume "cloud-43049-osd" volumeMapPath "/var/lib/kubelet/pods/5a9ab667-683e-4c74-a543-5fdfb3c9e204/volumeDevices/kubernetes.io~local-volume"
+110s        Normal    Pulled                   pod/rook-ceph-osd-prepare-set1-data-0dslnx-hd8rh                  Container image "rook/ceph:v1.8.8" already present on machine
+110s        Normal    Created                  pod/rook-ceph-osd-prepare-set1-data-0dslnx-hd8rh                  Created container copy-bins
+110s        Normal    Started                  pod/rook-ceph-osd-prepare-set1-data-0dslnx-hd8rh                  Started container copy-bins
+108s        Normal    Pulled                   pod/rook-ceph-osd-prepare-set1-data-0dslnx-hd8rh                  Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+108s        Normal    Created                  pod/rook-ceph-osd-prepare-set1-data-0dslnx-hd8rh                  Created container blkdevmapper
+108s        Normal    Started                  pod/rook-ceph-osd-prepare-set1-data-0dslnx-hd8rh                  Started container blkdevmapper
+68s         Normal    Pulled                   pod/rook-ceph-osd-prepare-set1-data-0dslnx-hd8rh                  Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+68s         Normal    Created                  pod/rook-ceph-osd-prepare-set1-data-0dslnx-hd8rh                  Created container provision
+68s         Normal    Started                  pod/rook-ceph-osd-prepare-set1-data-0dslnx-hd8rh                  Started container provision
+67s         Warning   BackOff                  pod/rook-ceph-osd-prepare-set1-data-0dslnx-hd8rh                  Back-off restarting failed container
+14m         Normal    Scheduled                pod/rook-ceph-osd-prepare-set1-data-0dslnx-nb8bx                  Successfully assigned rook-ceph/rook-ceph-osd-prepare-set1-data-0dslnx-nb8bx to cloud-43049
+14m         Normal    SuccessfulMountVolume    pod/rook-ceph-osd-prepare-set1-data-0dslnx-nb8bx                  MapVolume.MapPodDevice succeeded for volume "cloud-43049-osd" globalMapPath "/var/lib/kubelet/plugins/kubernetes.io~local-volume/volumeDevices/cloud-43049-osd"
+14m         Normal    SuccessfulMountVolume    pod/rook-ceph-osd-prepare-set1-data-0dslnx-nb8bx                  MapVolume.MapPodDevice succeeded for volume "cloud-43049-osd" volumeMapPath "/var/lib/kubelet/pods/cba3a117-b09d-4b61-a846-b60f5dce9ec4/volumeDevices/kubernetes.io~local-volume"
+14m         Normal    Pulled                   pod/rook-ceph-osd-prepare-set1-data-0dslnx-nb8bx                  Container image "rook/ceph:v1.8.8" already present on machine
+14m         Normal    Created                  pod/rook-ceph-osd-prepare-set1-data-0dslnx-nb8bx                  Created container copy-bins
+14m         Normal    Started                  pod/rook-ceph-osd-prepare-set1-data-0dslnx-nb8bx                  Started container copy-bins
+14m         Normal    Pulled                   pod/rook-ceph-osd-prepare-set1-data-0dslnx-nb8bx                  Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+14m         Normal    Created                  pod/rook-ceph-osd-prepare-set1-data-0dslnx-nb8bx                  Created container blkdevmapper
+14m         Normal    Started                  pod/rook-ceph-osd-prepare-set1-data-0dslnx-nb8bx                  Started container blkdevmapper
+13m         Normal    Pulled                   pod/rook-ceph-osd-prepare-set1-data-0dslnx-nb8bx                  Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+13m         Normal    Created                  pod/rook-ceph-osd-prepare-set1-data-0dslnx-nb8bx                  Created container provision
+13m         Normal    Started                  pod/rook-ceph-osd-prepare-set1-data-0dslnx-nb8bx                  Started container provision
+9m35s       Warning   BackOff                  pod/rook-ceph-osd-prepare-set1-data-0dslnx-nb8bx                  Back-off restarting failed container
+8m24s       Normal    Scheduled                pod/rook-ceph-osd-prepare-set1-data-0dslnx-qx8nb                  Successfully assigned rook-ceph/rook-ceph-osd-prepare-set1-data-0dslnx-qx8nb to cloud-43049
+8m24s       Normal    SuccessfulMountVolume    pod/rook-ceph-osd-prepare-set1-data-0dslnx-qx8nb                  MapVolume.MapPodDevice succeeded for volume "cloud-43049-osd" globalMapPath "/var/lib/kubelet/plugins/kubernetes.io~local-volume/volumeDevices/cloud-43049-osd"
+8m24s       Normal    SuccessfulMountVolume    pod/rook-ceph-osd-prepare-set1-data-0dslnx-qx8nb                  MapVolume.MapPodDevice succeeded for volume "cloud-43049-osd" volumeMapPath "/var/lib/kubelet/pods/17fa8a1d-467c-439e-b3e5-69767a4497ce/volumeDevices/kubernetes.io~local-volume"
+8m23s       Normal    Pulled                   pod/rook-ceph-osd-prepare-set1-data-0dslnx-qx8nb                  Container image "rook/ceph:v1.8.8" already present on machine
+8m22s       Normal    Created                  pod/rook-ceph-osd-prepare-set1-data-0dslnx-qx8nb                  Created container copy-bins
+8m22s       Normal    Started                  pod/rook-ceph-osd-prepare-set1-data-0dslnx-qx8nb                  Started container copy-bins
+8m21s       Normal    Pulled                   pod/rook-ceph-osd-prepare-set1-data-0dslnx-qx8nb                  Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+8m21s       Normal    Created                  pod/rook-ceph-osd-prepare-set1-data-0dslnx-qx8nb                  Created container blkdevmapper
+8m21s       Normal    Started                  pod/rook-ceph-osd-prepare-set1-data-0dslnx-qx8nb                  Started container blkdevmapper
+7m33s       Normal    Pulled                   pod/rook-ceph-osd-prepare-set1-data-0dslnx-qx8nb                  Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+7m33s       Normal    Created                  pod/rook-ceph-osd-prepare-set1-data-0dslnx-qx8nb                  Created container provision
+7m33s       Normal    Started                  pod/rook-ceph-osd-prepare-set1-data-0dslnx-qx8nb                  Started container provision
+3m12s       Warning   BackOff                  pod/rook-ceph-osd-prepare-set1-data-0dslnx-qx8nb                  Back-off restarting failed container
+14m         Normal    SuccessfulCreate         job/rook-ceph-osd-prepare-set1-data-0dslnx                        Created pod: rook-ceph-osd-prepare-set1-data-0dslnx-nb8bx
+8m59s       Normal    SuccessfulDelete         job/rook-ceph-osd-prepare-set1-data-0dslnx                        Deleted pod: rook-ceph-osd-prepare-set1-data-0dslnx-nb8bx
+8m59s       Warning   BackoffLimitExceeded     job/rook-ceph-osd-prepare-set1-data-0dslnx                        Job has reached the specified backoff limit
+8m25s       Normal    SuccessfulCreate         job/rook-ceph-osd-prepare-set1-data-0dslnx                        Created pod: rook-ceph-osd-prepare-set1-data-0dslnx-qx8nb
+2m35s       Normal    SuccessfulDelete         job/rook-ceph-osd-prepare-set1-data-0dslnx                        Deleted pod: rook-ceph-osd-prepare-set1-data-0dslnx-qx8nb
+2m35s       Warning   BackoffLimitExceeded     job/rook-ceph-osd-prepare-set1-data-0dslnx                        Job has reached the specified backoff limit
+112s        Normal    SuccessfulCreate         job/rook-ceph-osd-prepare-set1-data-0dslnx                        Created pod: rook-ceph-osd-prepare-set1-data-0dslnx-hd8rh
+109s        Normal    Scheduled                pod/rook-ceph-osd-prepare-set1-data-1bj54q-5q2fq                  Successfully assigned rook-ceph/rook-ceph-osd-prepare-set1-data-1bj54q-5q2fq to cloud-43813
+109s        Normal    SuccessfulMountVolume    pod/rook-ceph-osd-prepare-set1-data-1bj54q-5q2fq                  MapVolume.MapPodDevice succeeded for volume "cloud-43813-osd" globalMapPath "/var/lib/kubelet/plugins/kubernetes.io~local-volume/volumeDevices/cloud-43813-osd"
+109s        Normal    SuccessfulMountVolume    pod/rook-ceph-osd-prepare-set1-data-1bj54q-5q2fq                  MapVolume.MapPodDevice succeeded for volume "cloud-43813-osd" volumeMapPath "/var/lib/kubelet/pods/62ab36b8-6d48-4a3f-8950-ac2153fcf7eb/volumeDevices/kubernetes.io~local-volume"
+107s        Normal    Pulled                   pod/rook-ceph-osd-prepare-set1-data-1bj54q-5q2fq                  Container image "rook/ceph:v1.8.8" already present on machine
+107s        Normal    Created                  pod/rook-ceph-osd-prepare-set1-data-1bj54q-5q2fq                  Created container copy-bins
+107s        Normal    Started                  pod/rook-ceph-osd-prepare-set1-data-1bj54q-5q2fq                  Started container copy-bins
+106s        Normal    Pulled                   pod/rook-ceph-osd-prepare-set1-data-1bj54q-5q2fq                  Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+106s        Normal    Created                  pod/rook-ceph-osd-prepare-set1-data-1bj54q-5q2fq                  Created container blkdevmapper
+106s        Normal    Started                  pod/rook-ceph-osd-prepare-set1-data-1bj54q-5q2fq                  Started container blkdevmapper
+61s         Normal    Pulled                   pod/rook-ceph-osd-prepare-set1-data-1bj54q-5q2fq                  Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+61s         Normal    Created                  pod/rook-ceph-osd-prepare-set1-data-1bj54q-5q2fq                  Created container provision
+61s         Normal    Started                  pod/rook-ceph-osd-prepare-set1-data-1bj54q-5q2fq                  Started container provision
+60s         Warning   BackOff                  pod/rook-ceph-osd-prepare-set1-data-1bj54q-5q2fq                  Back-off restarting failed container
+14m         Normal    Scheduled                pod/rook-ceph-osd-prepare-set1-data-1bj54q-s7bht                  Successfully assigned rook-ceph/rook-ceph-osd-prepare-set1-data-1bj54q-s7bht to cloud-43813
+14m         Normal    SuccessfulMountVolume    pod/rook-ceph-osd-prepare-set1-data-1bj54q-s7bht                  MapVolume.MapPodDevice succeeded for volume "cloud-43813-osd" globalMapPath "/var/lib/kubelet/plugins/kubernetes.io~local-volume/volumeDevices/cloud-43813-osd"
+14m         Normal    SuccessfulMountVolume    pod/rook-ceph-osd-prepare-set1-data-1bj54q-s7bht                  MapVolume.MapPodDevice succeeded for volume "cloud-43813-osd" volumeMapPath "/var/lib/kubelet/pods/b0ab51ad-1756-47c7-8cf6-c18be761b12c/volumeDevices/kubernetes.io~local-volume"
+14m         Normal    Pulled                   pod/rook-ceph-osd-prepare-set1-data-1bj54q-s7bht                  Container image "rook/ceph:v1.8.8" already present on machine
+14m         Normal    Created                  pod/rook-ceph-osd-prepare-set1-data-1bj54q-s7bht                  Created container copy-bins
+14m         Normal    Started                  pod/rook-ceph-osd-prepare-set1-data-1bj54q-s7bht                  Started container copy-bins
+14m         Normal    Pulled                   pod/rook-ceph-osd-prepare-set1-data-1bj54q-s7bht                  Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+14m         Normal    Created                  pod/rook-ceph-osd-prepare-set1-data-1bj54q-s7bht                  Created container blkdevmapper
+14m         Normal    Started                  pod/rook-ceph-osd-prepare-set1-data-1bj54q-s7bht                  Started container blkdevmapper
+13m         Normal    Pulled                   pod/rook-ceph-osd-prepare-set1-data-1bj54q-s7bht                  Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+13m         Normal    Created                  pod/rook-ceph-osd-prepare-set1-data-1bj54q-s7bht                  Created container provision
+13m         Normal    Started                  pod/rook-ceph-osd-prepare-set1-data-1bj54q-s7bht                  Started container provision
+9m33s       Warning   BackOff                  pod/rook-ceph-osd-prepare-set1-data-1bj54q-s7bht                  Back-off restarting failed container
+8m21s       Normal    Scheduled                pod/rook-ceph-osd-prepare-set1-data-1bj54q-vtxv6                  Successfully assigned rook-ceph/rook-ceph-osd-prepare-set1-data-1bj54q-vtxv6 to cloud-43813
+8m21s       Normal    SuccessfulMountVolume    pod/rook-ceph-osd-prepare-set1-data-1bj54q-vtxv6                  MapVolume.MapPodDevice succeeded for volume "cloud-43813-osd" globalMapPath "/var/lib/kubelet/plugins/kubernetes.io~local-volume/volumeDevices/cloud-43813-osd"
+8m21s       Normal    SuccessfulMountVolume    pod/rook-ceph-osd-prepare-set1-data-1bj54q-vtxv6                  MapVolume.MapPodDevice succeeded for volume "cloud-43813-osd" volumeMapPath "/var/lib/kubelet/pods/d9122e0b-85b4-4850-9830-ddf368b98e95/volumeDevices/kubernetes.io~local-volume"
+8m20s       Normal    Pulled                   pod/rook-ceph-osd-prepare-set1-data-1bj54q-vtxv6                  Container image "rook/ceph:v1.8.8" already present on machine
+8m20s       Normal    Created                  pod/rook-ceph-osd-prepare-set1-data-1bj54q-vtxv6                  Created container copy-bins
+8m19s       Normal    Started                  pod/rook-ceph-osd-prepare-set1-data-1bj54q-vtxv6                  Started container copy-bins
+8m19s       Normal    Pulled                   pod/rook-ceph-osd-prepare-set1-data-1bj54q-vtxv6                  Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+8m19s       Normal    Created                  pod/rook-ceph-osd-prepare-set1-data-1bj54q-vtxv6                  Created container blkdevmapper
+8m18s       Normal    Started                  pod/rook-ceph-osd-prepare-set1-data-1bj54q-vtxv6                  Started container blkdevmapper
+7m31s       Normal    Pulled                   pod/rook-ceph-osd-prepare-set1-data-1bj54q-vtxv6                  Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+7m31s       Normal    Created                  pod/rook-ceph-osd-prepare-set1-data-1bj54q-vtxv6                  Created container provision
+7m31s       Normal    Started                  pod/rook-ceph-osd-prepare-set1-data-1bj54q-vtxv6                  Started container provision
+3m15s       Warning   BackOff                  pod/rook-ceph-osd-prepare-set1-data-1bj54q-vtxv6                  Back-off restarting failed container
+14m         Normal    SuccessfulCreate         job/rook-ceph-osd-prepare-set1-data-1bj54q                        Created pod: rook-ceph-osd-prepare-set1-data-1bj54q-s7bht
+8m57s       Normal    SuccessfulDelete         job/rook-ceph-osd-prepare-set1-data-1bj54q                        Deleted pod: rook-ceph-osd-prepare-set1-data-1bj54q-s7bht
+8m57s       Warning   BackoffLimitExceeded     job/rook-ceph-osd-prepare-set1-data-1bj54q                        Job has reached the specified backoff limit
+8m22s       Normal    SuccessfulCreate         job/rook-ceph-osd-prepare-set1-data-1bj54q                        Created pod: rook-ceph-osd-prepare-set1-data-1bj54q-vtxv6
+2m35s       Normal    SuccessfulDelete         job/rook-ceph-osd-prepare-set1-data-1bj54q                        Deleted pod: rook-ceph-osd-prepare-set1-data-1bj54q-vtxv6
+2m35s       Warning   BackoffLimitExceeded     job/rook-ceph-osd-prepare-set1-data-1bj54q                        Job has reached the specified backoff limit
+109s        Normal    SuccessfulCreate         job/rook-ceph-osd-prepare-set1-data-1bj54q                        Created pod: rook-ceph-osd-prepare-set1-data-1bj54q-5q2fq
+8m18s       Normal    Scheduled                pod/rook-ceph-osd-prepare-set1-data-2r826z-7gw7g                  Successfully assigned rook-ceph/rook-ceph-osd-prepare-set1-data-2r826z-7gw7g to cloud-43050
+8m18s       Normal    SuccessfulMountVolume    pod/rook-ceph-osd-prepare-set1-data-2r826z-7gw7g                  MapVolume.MapPodDevice succeeded for volume "cloud-43050-osd" globalMapPath "/var/lib/kubelet/plugins/kubernetes.io~local-volume/volumeDevices/cloud-43050-osd"
+8m18s       Normal    SuccessfulMountVolume    pod/rook-ceph-osd-prepare-set1-data-2r826z-7gw7g                  MapVolume.MapPodDevice succeeded for volume "cloud-43050-osd" volumeMapPath "/var/lib/kubelet/pods/df8e88d8-5707-4aaa-9958-30f42153baa9/volumeDevices/kubernetes.io~local-volume"
+8m17s       Normal    Pulled                   pod/rook-ceph-osd-prepare-set1-data-2r826z-7gw7g                  Container image "rook/ceph:v1.8.8" already present on machine
+8m17s       Normal    Created                  pod/rook-ceph-osd-prepare-set1-data-2r826z-7gw7g                  Created container copy-bins
+8m16s       Normal    Started                  pod/rook-ceph-osd-prepare-set1-data-2r826z-7gw7g                  Started container copy-bins
+8m16s       Normal    Pulled                   pod/rook-ceph-osd-prepare-set1-data-2r826z-7gw7g                  Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+8m16s       Normal    Created                  pod/rook-ceph-osd-prepare-set1-data-2r826z-7gw7g                  Created container blkdevmapper
+8m15s       Normal    Started                  pod/rook-ceph-osd-prepare-set1-data-2r826z-7gw7g                  Started container blkdevmapper
+7m30s       Normal    Pulled                   pod/rook-ceph-osd-prepare-set1-data-2r826z-7gw7g                  Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+7m30s       Normal    Created                  pod/rook-ceph-osd-prepare-set1-data-2r826z-7gw7g                  Created container provision
+7m30s       Normal    Started                  pod/rook-ceph-osd-prepare-set1-data-2r826z-7gw7g                  Started container provision
+3m10s       Warning   BackOff                  pod/rook-ceph-osd-prepare-set1-data-2r826z-7gw7g                  Back-off restarting failed container
+14m         Normal    Scheduled                pod/rook-ceph-osd-prepare-set1-data-2r826z-r2gpj                  Successfully assigned rook-ceph/rook-ceph-osd-prepare-set1-data-2r826z-r2gpj to cloud-43050
+14m         Normal    SuccessfulMountVolume    pod/rook-ceph-osd-prepare-set1-data-2r826z-r2gpj                  MapVolume.MapPodDevice succeeded for volume "cloud-43050-osd" globalMapPath "/var/lib/kubelet/plugins/kubernetes.io~local-volume/volumeDevices/cloud-43050-osd"
+14m         Normal    SuccessfulMountVolume    pod/rook-ceph-osd-prepare-set1-data-2r826z-r2gpj                  MapVolume.MapPodDevice succeeded for volume "cloud-43050-osd" volumeMapPath "/var/lib/kubelet/pods/5ff908e5-6b4f-4dac-9d63-211bd14a0a34/volumeDevices/kubernetes.io~local-volume"
+14m         Normal    Pulled                   pod/rook-ceph-osd-prepare-set1-data-2r826z-r2gpj                  Container image "rook/ceph:v1.8.8" already present on machine
+14m         Normal    Created                  pod/rook-ceph-osd-prepare-set1-data-2r826z-r2gpj                  Created container copy-bins
+14m         Normal    Started                  pod/rook-ceph-osd-prepare-set1-data-2r826z-r2gpj                  Started container copy-bins
+14m         Normal    Pulled                   pod/rook-ceph-osd-prepare-set1-data-2r826z-r2gpj                  Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+14m         Normal    Created                  pod/rook-ceph-osd-prepare-set1-data-2r826z-r2gpj                  Created container blkdevmapper
+14m         Normal    Started                  pod/rook-ceph-osd-prepare-set1-data-2r826z-r2gpj                  Started container blkdevmapper
+13m         Normal    Pulled                   pod/rook-ceph-osd-prepare-set1-data-2r826z-r2gpj                  Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+13m         Normal    Created                  pod/rook-ceph-osd-prepare-set1-data-2r826z-r2gpj                  Created container provision
+13m         Normal    Started                  pod/rook-ceph-osd-prepare-set1-data-2r826z-r2gpj                  Started container provision
+9m43s       Warning   BackOff                  pod/rook-ceph-osd-prepare-set1-data-2r826z-r2gpj                  Back-off restarting failed container
+115s        Normal    Scheduled                pod/rook-ceph-osd-prepare-set1-data-2r826z-s4vwx                  Successfully assigned rook-ceph/rook-ceph-osd-prepare-set1-data-2r826z-s4vwx to cloud-43050
+115s        Normal    SuccessfulMountVolume    pod/rook-ceph-osd-prepare-set1-data-2r826z-s4vwx                  MapVolume.MapPodDevice succeeded for volume "cloud-43050-osd" globalMapPath "/var/lib/kubelet/plugins/kubernetes.io~local-volume/volumeDevices/cloud-43050-osd"
+115s        Normal    SuccessfulMountVolume    pod/rook-ceph-osd-prepare-set1-data-2r826z-s4vwx                  MapVolume.MapPodDevice succeeded for volume "cloud-43050-osd" volumeMapPath "/var/lib/kubelet/pods/ac79c504-ee18-4849-b73d-616be6c845b1/volumeDevices/kubernetes.io~local-volume"
+113s        Normal    Pulled                   pod/rook-ceph-osd-prepare-set1-data-2r826z-s4vwx                  Container image "rook/ceph:v1.8.8" already present on machine
+113s        Normal    Created                  pod/rook-ceph-osd-prepare-set1-data-2r826z-s4vwx                  Created container copy-bins
+112s        Normal    Started                  pod/rook-ceph-osd-prepare-set1-data-2r826z-s4vwx                  Started container copy-bins
+111s        Normal    Pulled                   pod/rook-ceph-osd-prepare-set1-data-2r826z-s4vwx                  Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+111s        Normal    Created                  pod/rook-ceph-osd-prepare-set1-data-2r826z-s4vwx                  Created container blkdevmapper
+111s        Normal    Started                  pod/rook-ceph-osd-prepare-set1-data-2r826z-s4vwx                  Started container blkdevmapper
+65s         Normal    Pulled                   pod/rook-ceph-osd-prepare-set1-data-2r826z-s4vwx                  Container image "quay.io/ceph/ceph:v16.2.7" already present on machine
+65s         Normal    Created                  pod/rook-ceph-osd-prepare-set1-data-2r826z-s4vwx                  Created container provision
+65s         Normal    Started                  pod/rook-ceph-osd-prepare-set1-data-2r826z-s4vwx                  Started container provision
+64s         Warning   BackOff                  pod/rook-ceph-osd-prepare-set1-data-2r826z-s4vwx                  Back-off restarting failed container
+14m         Normal    SuccessfulCreate         job/rook-ceph-osd-prepare-set1-data-2r826z                        Created pod: rook-ceph-osd-prepare-set1-data-2r826z-r2gpj
+8m54s       Normal    SuccessfulDelete         job/rook-ceph-osd-prepare-set1-data-2r826z                        Deleted pod: rook-ceph-osd-prepare-set1-data-2r826z-r2gpj
+8m54s       Warning   BackoffLimitExceeded     job/rook-ceph-osd-prepare-set1-data-2r826z                        Job has reached the specified backoff limit
+8m19s       Normal    SuccessfulCreate         job/rook-ceph-osd-prepare-set1-data-2r826z                        Created pod: rook-ceph-osd-prepare-set1-data-2r826z-7gw7g
+2m27s       Normal    SuccessfulDelete         job/rook-ceph-osd-prepare-set1-data-2r826z                        Deleted pod: rook-ceph-osd-prepare-set1-data-2r826z-7gw7g
+2m27s       Warning   BackoffLimitExceeded     job/rook-ceph-osd-prepare-set1-data-2r826z                        Job has reached the specified backoff limit
+115s        Normal    SuccessfulCreate         job/rook-ceph-osd-prepare-set1-data-2r826z                        Created pod: rook-ceph-osd-prepare-set1-data-2r826z-s4vwx
+21s         Normal    NoPods                   poddisruptionbudget/rook-ceph-osd                                 No matching pods found
+21m         Normal    LeaderElection           lease/rook-ceph-rbd-csi-ceph-com                                  csi-rbdplugin-provisioner-6bcd78bb89-gx8hp became leader
+14m         Warning   ReconcileFailed          cephcluster/rook-ceph                                             failed to reconcile CephCluster "rook-ceph/rook-ceph". failed to reconcile cluster "rook-ceph": failed to configure local ceph cluster: failed to create cluster: failed to start ceph osds: 5 failures encountered while running osds on nodes in namespace "rook-ceph". 
+failed to provision OSD(s) on PVC set1-data-1bj54q. &{OSDs:[] Status:failed PvcBackedOSD:true Message:failed to get device info for "/mnt/set1-data-1bj54q": unsupported diskType loop}
+failed to provision OSD(s) on PVC set1-data-2r826z. &{OSDs:[] Status:failed PvcBackedOSD:true Message:failed to get device info for "/mnt/set1-data-2r826z": unsupported diskType loop}
+failed to provision OSD(s) on PVC set1-data-1bj54q. &{OSDs:[] Status:failed PvcBackedOSD:true Message:failed to get device info for "/mnt/set1-data-1bj54q": unsupported diskType loop}
+failed to provision OSD(s) on PVC set1-data-2r826z. &{OSDs:[] Status:failed PvcBackedOSD:true Message:failed to get device info for "/mnt/set1-data-2r826z": unsupported diskType loop}
+failed to provision OSD(s) on PVC set1-data-0dslnx. &{OSDs:[] Status:failed PvcBackedOSD:true Message:failed to get device info for "/mnt/set1-data-0dslnx": unsupported diskType loop}
+61s         Warning   ReconcileFailed          cephcluster/rook-ceph                                             failed to reconcile CephCluster "rook-ceph/rook-ceph". failed to reconcile cluster "rook-ceph": failed to configure local ceph cluster: failed to create cluster: failed to start ceph osds: 3 failures encountered while running osds on nodes in namespace "rook-ceph". 
+failed to provision OSD(s) on PVC set1-data-0dslnx. &{OSDs:[] Status:failed PvcBackedOSD:true Message:failed to get device info for "/mnt/set1-data-0dslnx": unsupported diskType loop}
+failed to provision OSD(s) on PVC set1-data-2r826z. &{OSDs:[] Status:failed PvcBackedOSD:true Message:failed to get device info for "/mnt/set1-data-2r826z": unsupported diskType loop}
+failed to provision OSD(s) on PVC set1-data-1bj54q. &{OSDs:[] Status:failed PvcBackedOSD:true Message:failed to get device info for "/mnt/set1-data-1bj54q": unsupported diskType loop}
+9s          Warning   ReconcileFailed          cephcluster/rook-ceph                                             failed to reconcile CephCluster "rook-ceph/rook-ceph". failed to reconcile cluster "rook-ceph": failed to configure local ceph cluster: failed to create cluster: failed to start ceph osds: 3 failures encountered while running osds on nodes in namespace "rook-ceph". 
+failed to provision OSD(s) on PVC set1-data-2r826z. &{OSDs:[] Status:failed PvcBackedOSD:true Message:failed to get device info for "/mnt/set1-data-2r826z": unsupported diskType loop}
+failed to provision OSD(s) on PVC set1-data-0dslnx. &{OSDs:[] Status:failed PvcBackedOSD:true Message:failed to get device info for "/mnt/set1-data-0dslnx": unsupported diskType loop}
+failed to provision OSD(s) on PVC set1-data-1bj54q. &{OSDs:[] Status:failed PvcBackedOSD:true Message:failed to get device info for "/mnt/set1-data-1bj54q": unsupported diskType loop}
+2m28s       Warning   ReconcileFailed          cephcluster/rook-ceph                                             failed to reconcile CephCluster "rook-ceph/rook-ceph". failed to reconcile cluster "rook-ceph": failed to configure local ceph cluster: failed to create cluster: failed to start ceph osds: 3 failures encountered while running osds on nodes in namespace "rook-ceph". 
+failed to provision OSD(s) on PVC set1-data-0dslnx. &{OSDs:[] Status:failed PvcBackedOSD:true Message:failed to get device info for "/mnt/set1-data-0dslnx": unsupported diskType loop}
+failed to provision OSD(s) on PVC set1-data-1bj54q. &{OSDs:[] Status:failed PvcBackedOSD:true Message:failed to get device info for "/mnt/set1-data-1bj54q": unsupported diskType loop}
+failed to provision OSD(s) on PVC set1-data-2r826z. &{OSDs:[] Status:failed PvcBackedOSD:true Message:failed to get device info for "/mnt/set1-data-2r826z": unsupported diskType loop}
+8m14s       Warning   ReconcileFailed          cephcluster/rook-ceph                                             failed to reconcile CephCluster "rook-ceph/rook-ceph". failed to reconcile cluster "rook-ceph": failed to configure local ceph cluster: failed to create cluster: failed to start ceph osds: 4 failures encountered while running osds on nodes in namespace "rook-ceph". 
+failed to provision OSD(s) on PVC set1-data-0dslnx. &{OSDs:[] Status:failed PvcBackedOSD:true Message:failed to get device info for "/mnt/set1-data-0dslnx": unsupported diskType loop}
+failed to provision OSD(s) on PVC set1-data-1bj54q. &{OSDs:[] Status:failed PvcBackedOSD:true Message:failed to get device info for "/mnt/set1-data-1bj54q": unsupported diskType loop}
+failed to provision OSD(s) on PVC set1-data-1bj54q. &{OSDs:[] Status:failed PvcBackedOSD:true Message:failed to get device info for "/mnt/set1-data-1bj54q": unsupported diskType loop}
+failed to provision OSD(s) on PVC set1-data-2r826z. &{OSDs:[] Status:failed PvcBackedOSD:true Message:failed to get device info for "/mnt/set1-data-2r826z": unsupported diskType loop}
+6m43s       Warning   ReconcileFailed          cephcluster/rook-ceph                                             failed to reconcile CephCluster "rook-ceph/rook-ceph". failed to reconcile cluster "rook-ceph": failed to configure local ceph cluster: failed to create cluster: failed to start ceph osds: 3 failures encountered while running osds on nodes in namespace "rook-ceph". 
+failed to provision OSD(s) on PVC set1-data-1bj54q. &{OSDs:[] Status:failed PvcBackedOSD:true Message:failed to get device info for "/mnt/set1-data-1bj54q": unsupported diskType loop}
+failed to provision OSD(s) on PVC set1-data-2r826z. &{OSDs:[] Status:failed PvcBackedOSD:true Message:failed to get device info for "/mnt/set1-data-2r826z": unsupported diskType loop}
+failed to provision OSD(s) on PVC set1-data-0dslnx. &{OSDs:[] Status:failed PvcBackedOSD:true Message:failed to get device info for "/mnt/set1-data-0dslnx": unsupported diskType loop}
+104s        Warning   ReconcileFailed          cephcluster/rook-ceph                                             failed to reconcile CephCluster "rook-ceph/rook-ceph". failed to reconcile cluster "rook-ceph": failed to configure local ceph cluster: failed to create cluster: failed to start ceph osds: 5 failures encountered while running osds on nodes in namespace "rook-ceph". 
+failed to provision OSD(s) on PVC set1-data-2r826z. &{OSDs:[] Status:failed PvcBackedOSD:true Message:failed to get device info for "/mnt/set1-data-2r826z": unsupported diskType loop}
+failed to provision OSD(s) on PVC set1-data-2r826z. &{OSDs:[] Status:failed PvcBackedOSD:true Message:failed to get device info for "/mnt/set1-data-2r826z": unsupported diskType loop}
+failed to provision OSD(s) on PVC set1-data-0dslnx. &{OSDs:[] Status:failed PvcBackedOSD:true Message:failed to get device info for "/mnt/set1-data-0dslnx": unsupported diskType loop}
+failed to provision OSD(s) on PVC set1-data-0dslnx. &{OSDs:[] Status:failed PvcBackedOSD:true Message:failed to get device info for "/mnt/set1-data-0dslnx": unsupported diskType loop}
+failed to provision OSD(s) on PVC set1-data-1bj54q. &{OSDs:[] Status:failed PvcBackedOSD:true Message:failed to get device info for "/mnt/set1-data-1bj54q": unsupported diskType loop}
+14m         Normal    WaitForFirstConsumer     persistentvolumeclaim/set1-data-0dslnx                            waiting for first consumer to be created before binding
+14m         Normal    WaitForFirstConsumer     persistentvolumeclaim/set1-data-1bj54q                            waiting for first consumer to be created before binding
+14m         Normal    WaitForFirstConsumer     persistentvolumeclaim/set1-data-2r826z                            waiting for first consumer to be created before binding
