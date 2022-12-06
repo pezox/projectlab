@@ -1,0 +1,42 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: nodereader-pvc
+spec:
+  accessModes:
+  - ReadWriteMany
+  resources:
+    requests:
+      storage: 100Mi
+  storageClassName: rook-cephfs
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nodereader-deployment
+  labels:
+    app: nodereader
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nodereader
+  template:
+    metadata:
+      labels:
+        app: nodereader
+    spec:
+      containers:
+      - name: nodereader
+        image: pezox/nodereader:1.0
+        ports:
+        - containerPort: 3000
+          protocol: TCP
+        volumeMounts:
+        - name: nodereader-vol
+          mountPath: /var/nodereaderdata
+      volumes:
+      - name: nodereader-vol
+        persistentVolumeClaim:
+          claimName: nodereader-pvc
+          readOnly: false
