@@ -1,0 +1,12 @@
+apiVersion: chaos-mesh.org/v1alpha1
+kind: PodChaos
+metadata:
+  name: osd-pod-failure-one
+  namespace: rook-ceph
+spec:
+  action: pod-failure
+  mode: one
+  duration: '2700s'
+  selector:
+    labelSelectors:
+      'osdpod': 'true'
